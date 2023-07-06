@@ -205,10 +205,10 @@ body {
 /* FIN RESET GLOBAL */
 
 .Wrapper1 {
-  width: 50%;
+  width: 70%;
 }
 .Wrapper2 {
-  width: 75%;
+  width: 90%;
 }
 .Wrapper3 {
   width: 87.5%;
@@ -320,6 +320,8 @@ body {
 .Header-logo {
 }
 .Header-img {
+  min-width: 150px;
+  max-width: 150px;
 }
 .Header-btn {
   display: none;
@@ -373,8 +375,10 @@ body {
 .Navmenu-a {
 }
 .Kitdigital-a {
-  width: 10%;
-  height: 10%;
+}
+.Kitdigital-img {
+  min-width: 100px;
+  max-width: 100px;
 }
 .Navmenu-img {
 }
@@ -441,6 +445,7 @@ body {
   font-weight: 400;
 }
 .Main-ul {
+  width: 80%;
   display: flex;
   flex-flow: row wrap;
   justify-content: flex-start;
@@ -456,12 +461,11 @@ body {
   font-weight: 400;
 }
 .Main-img {
-  width: 60%;
-  height: 60%;
-
-  /* position: absolute;
-  top: 40%;
-  right: 0%; */
+  width: 50%;
+  height: 5 0%;
 }
 
 /* MEDIA QUERIES */
+
+@media screen and (max-width: 1024px) {
+}
