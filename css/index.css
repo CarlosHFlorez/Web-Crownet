@@ -210,16 +210,35 @@ body {
 .Wrapper2 {
   width: 75%;
 }
+.Wrapper3 {
+  width: 87.5%;
+}
 
 /* INICIO DEL HEADER */
 .Header {
   width: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  position: fixed;
+  top: 0%;
+  left: 0%;
 }
 /* Inicio del Header Top */
 .Header-top {
   width: 100%;
-  padding: 14px 0;
+  padding: 18px 0;
   background-color: var(--Metallic);
+}
+.Header-top-wrapper {
+  margin: auto;
+
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
 }
 .Header-phone {
   display: flex;
@@ -230,15 +249,10 @@ body {
 
   gap: 8px;
 }
-.Header-top-wrapper {
-  margin: auto;
-
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between;
-  align-items: center;
-}
 .Header-svg {
+  width: 24px;
+  height: 24px;
+  fill: var(--White);
 }
 .Header-span {
   color: var(--White);
@@ -252,11 +266,6 @@ body {
   align-items: center;
 
   gap: 8px;
-}
-.Header-svg {
-  width: 24px;
-  height: 24px;
-  fill: var(--White);
 }
 .Rrss {
   display: flex;
@@ -300,7 +309,7 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-.Header-grp {
+.Header-responsive {
   width: 100%;
 
   display: flex;
@@ -308,22 +317,14 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-.Header-responsive {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between;
-  align-items: center;
-}
 .Header-logo {
-  width: 30%;
-  height: 30%;
 }
 .Header-img {
 }
 .Header-btn {
   display: none;
 }
-.Header-svg {
+.Header-btn-svg {
   width: 2rem;
   height: 2rem;
   fill: var(--Black2);
@@ -335,6 +336,8 @@ body {
   align-items: center;
 
   gap: 30px;
+
+  /* display: none; */
 }
 .Header-ul {
 }
@@ -402,13 +405,16 @@ body {
 /* INICIO DEL MAIN */
 .Main {
   width: 100%;
-  min-height: 70vh;
-  padding: 75px 0;
+  min-height: 500vh;
+  margin-top: 180px;
+  padding-top: 75px;
 }
 .Main-wrapper {
   margin: auto;
 }
 .Main-section {
+  width: 100%;
+  min-height: 50vh;
 }
 .Main-h1 {
   font-size: 60px;
@@ -452,6 +458,10 @@ body {
 .Main-img {
   width: 60%;
   height: 60%;
+
+  /* position: absolute;
+  top: 40%;
+  right: 0%; */
 }
 
 /* MEDIA QUERIES */
