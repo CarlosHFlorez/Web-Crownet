@@ -392,7 +392,7 @@ body {
   cursor: pointer;
 }
 .Iniciar-erp-btn:hover {
-  background: linear-gradient(0deg, var(--Blue) 0%, var(--Blue4) 100%);
+  background: linear-gradient(0deg, var(--Blue) 0%, var(--Blue5) 100%);
 }
 .Iniciar-erp-btn:active {
   background: var(--Transparent);
@@ -477,7 +477,7 @@ body {
   white-space: nowrap;
 }
 .Buttons-a:hover {
-  background: linear-gradient(0deg, var(--Orange) 0%, var(--Orange4) 100%);
+  background: linear-gradient(0deg, var(--Orange) 0%, var(--Orange5) 100%);
 }
 .Buttons-a:active {
   background: var(--Transparent);
