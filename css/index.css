@@ -46,13 +46,13 @@
 
 /* Barra de scroll personalizada */
 ::-webkit-scrollbar {
-  width: 0.625rem;
+  width: 0.75rem;
 }
 ::-webkit-scrollbar-track {
-  background: var(--Borders);
+  background: linear-gradient(90deg, var(--Black5) 0%, var(--Black4) 50%, var(--Black5) 100%);
 }
 ::-webkit-scrollbar-thumb {
-  background: var(--Main-color);
+  background: linear-gradient(90deg, var(--Orange) 0%, var(--Orange3) 50%, var(--Orange) 100%);
   border-radius: 1rem;
 }
 /* Fin de Barra de scroll personalizada*/
@@ -209,9 +209,6 @@ body {
 }
 .Wrapper2 {
   width: 90%;
-}
-.Wrapper3 {
-  width: 87.5%;
 }
 
 /* INICIO DEL HEADER */
@@ -383,8 +380,7 @@ body {
 .Navmenu-img {
 }
 .Iniciar-erp-btn {
-  width: 167px;
-  height: 45px;
+  padding: 1rem 2rem;
   border-radius: 32px;
   border: 1px solid var(--Black2);
   background: linear-gradient(0deg, var(--Blue) 0%, var(--Blue3) 100%);
@@ -396,7 +392,7 @@ body {
   cursor: pointer;
 }
 .Iniciar-erp-btn:hover {
-  background: linear-gradient(0deg, var(--Blue) 0%, var(--Blue5) 100%);
+  background: linear-gradient(0deg, var(--Blue) 0%, var(--Blue4) 100%);
 }
 .Iniciar-erp-btn:active {
   background: var(--Transparent);
@@ -411,7 +407,7 @@ body {
   width: 100%;
   min-height: 500vh;
   margin-top: 180px;
-  padding-top: 75px;
+  padding-top: 50px;
 }
 .Main-wrapper {
   margin: auto;
@@ -437,14 +433,16 @@ body {
   width: 40%;
   display: flex;
   flex-flow: column nowrap;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: flex-start;
+
+  gap: 50px;
 }
 .Main-p {
   font-size: 20px;
   font-weight: 400;
 }
-.Main-ul {
+.Properties {
   width: 80%;
   display: flex;
   flex-flow: row wrap;
@@ -453,16 +451,43 @@ body {
   white-space: nowrap;
 
   gap: 1rem;
-
-  margin-top: 50px;
 }
-.Main-li {
+.Properties-li {
   font-size: 20px;
   font-weight: 400;
 }
+.Buttons {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+
+  gap: 50px;
+}
+.Buttons-a {
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  background: linear-gradient(0deg, var(--Orange) 0%, var(--Orange3) 100%);
+  color: var(--White);
+  border: 1px solid var(--Black2);
+
+  font-size: 18px;
+  font-weight: 700;
+
+  white-space: nowrap;
+}
+.Buttons-a:hover {
+  background: linear-gradient(0deg, var(--Orange) 0%, var(--Orange4) 100%);
+}
+.Buttons-a:active {
+  background: var(--Transparent);
+  color: var(--Black2);
+}
 .Main-img {
-  width: 50%;
-  height: 5 0%;
+  width: 45%;
+  height: 45%;
+  margin-right: -5.55%;
+  margin-top: -5%;
 }
 
 /* MEDIA QUERIES */
