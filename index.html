@@ -7,6 +7,7 @@
 
     <!-- Enlazamos los archivos CSS y JS al DOM -->
     <link rel="stylesheet" href="css/index.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="js/index.js" defer></script>
 
     <!-- Enlazamos la fuente -->
@@ -145,14 +146,16 @@
             <li class="Rrss-li">
               <a href="https://www.linkedin.com/" class="Rrss-a" title="Linkedin" target="_blank" rel="noreferer">
                 <svg class="Rrss-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
-                  <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+                  <path
+                    d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
                 </svg>
               </a>
             </li>
             <li class="Rrss-li">
               <a href="https://www.youtube.com/" class="Rrss-a" title="Youtube" target="_blank" rel="noreferer">
                 <svg class="Rrss-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
-                  <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z" />
+                  <path
+                    d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z" />
                 </svg>
               </a>
             </li>
@@ -161,7 +164,7 @@
       </div>
       <div class="Header-bottom">
         <div class="Header-bottom-wrapper Wrapper2">
-          <div class="Header-responsive">
+          <div class="Header-grp">
             <a href="index.html" class="Header-logo" title="Inicio">
               <img src="assets/img/logonuevo_resized.png" alt="Logo" class="Header-img" />
             </a>
@@ -170,8 +173,10 @@
                 <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
               </svg>
             </button>
+          </div>
 
-            <!-- Menú de navegación -->
+          <!-- Menú de navegación -->
+          <div class="Header-responsive">
             <nav class="Header-nav">
               <ul class="Header-ul Navmenu">
                 <li class="Navmenu-li">
@@ -191,8 +196,8 @@
                 <button class="Iniciar-erp-btn">Iniciar ERP</button>
               </a>
             </nav>
-            <!-- Fin de menú de navegación -->
           </div>
+          <!-- Fin de menú de navegación -->
         </div>
       </div>
     </header>
@@ -200,30 +205,134 @@
 
     <!-- Inicio de Main -->
     <main class="Main">
-      <div class="Main-wrapper Wrapper2">
-        <section class="Main-section">
-          <h1 class="Main-h1">El mejor ERP Cloud del mercado para gestionar grandes negocios</h1>
-          <div class="Main-container">
-            <div class="Main-column">
-              <p class="Main-p">Crownet es el Software ERP Cloud que tiene todo lo que necesitas para gestionar tu empresa. Desde cualquier dispositivo, cuando y donde quieras.</p>
-              <ul class="Main-ul Properties">
-                <li class="Properties-li">✓ Contabilidad</li>
-                <li class="Properties-li">✓ Finanzas</li>
-                <li class="Properties-li">✓ Ventas</li>
-                <li class="Properties-li">✓ Compras</li>
-                <li class="Properties-li">✓ Producción</li>
-                <li class="Properties-li">✓ Logística</li>
-                <li class="Properties-li">✓ CRM y mucho más</li>
-              </ul>
-              <ul class="Main-ul Buttons">
-                <li class="Buttons-li"><a href="https://www.youtube.com/watch?v=64xnrzXCVCk" target="_blank" class="Buttons-a">Ver VIDEO</a></li>
-                <li class="Buttons-li"><a href="contacto.html" class="Buttons-a">Pide tu DEMO GRATIS</a></li>
-              </ul>
+      <section class="Main-section">
+        <div class="Main-wrapper Wrapper2">
+          <div class="Main-div">
+            <h1 class="Main-h1">El mejor ERP Cloud del mercado para gestionar grandes negocios</h1>
+            <div class="Main-container">
+              <div class="Main-column">
+                <p class="Main-p">Crownet es el Software ERP Cloud que tiene todo lo que necesitas para gestionar tu empresa. Desde cualquier dispositivo, cuando y donde quieras.</p>
+                <ul class="Main-ul Properties">
+                  <li class="Properties-li">✓ Contabilidad</li>
+                  <li class="Properties-li">✓ Finanzas</li>
+                  <li class="Properties-li">✓ Ventas</li>
+                  <li class="Properties-li">✓ Compras</li>
+                  <li class="Properties-li">✓ Producción</li>
+                  <li class="Properties-li">✓ Logística</li>
+                  <li class="Properties-li">✓ CRM y mucho más</li>
+                </ul>
+                <ul class="Main-ul Buttons">
+                  <li class="Buttons-li"><a href="https://www.youtube.com/watch?v=64xnrzXCVCk" target="_blank" class="Buttons-a">Ver VIDEO</a></li>
+                  <li class="Buttons-li"><a href="contacto.html" class="Buttons-a">Pide tu DEMO GRATIS</a></li>
+                </ul>
+              </div>
+              <img src="assets/img/Secciones/index_bg_resized.png" alt="ERP Cloud" class="Main-img" />
             </div>
-            <img src="assets/img/Secciones/index_bg_resized.png" alt="ERP Cloud" class="Main-img" />
           </div>
-        </section>
-      </div>
+        </div>
+      </section>
+
+      <section class="Video-section">
+        <div class="Video-wrapper Wrapper2">
+          <div class="Video-div">
+            <h2 class="Video-h2">Qué es un ERP Cloud y cómo lo implementamos</h2>
+            <video class="Video-video" preload="none" loop muted autoplay playsinline>
+              <source src="assets/video/imac.mp4" type="video/mp4" />
+            </video>
+            <p class="Video-p">Un <strong>ERP en la nube</strong> es un software de planificación de recursos empresariales que gestiona todas las áreas de tu empresa. Tiene numerosas ventajas como el <strong>acceso desde cualquier ubicación y desde cualquier dispositivo</strong>, una <strong>mayor escalabilidad</strong> y una <strong>gestión mucho más eficaz</strong> y optimizada de los recursos.</p>
+          </div>
+        </div>
+      </section>
+      <section class="Sectores-section">
+        <div class="Sectores-wrapper Wrapper2">
+          <h2 class="Sectores-h2">Un ERP específico para cada sector</h2>
+          <div class="Sectores-div Grid">
+            <article class="Grid-article">
+              <a href="https://www.youtube.com/watch?v=64xnrzXCVCk&list=PL13o7PRuMdNoE9iSLIqdBfR4nYZIRwVhL&index=2&t=1s" target="_blank" class="Grid-a">
+                <img src="assets/img/Imagenes sectores/Reworked/NO BG/fixed/standard.png" alt="ERP Cloud Estandar" class="Grid-img" />
+              </a>
+              <h3 class="Grid-h3">Estándar</h3>
+            </article>
+
+            <article class="Grid-article">
+              <a href="https://www.youtube.com/watch?v=tMSEws7Cp6M&t=35s" target="_blank" class="Grid-a">
+                <img src="assets/img/Imagenes sectores/Reworked/NO BG/fixed/hostelry.png" alt="ERP Cloud Hosteleria" class="Grid-img" />
+              </a>
+              <h3 class="Grid-h3">Hostelería</h3>
+            </article>
+
+            <article class="Grid-article">
+              <a href="https://www.youtube.com/watch?v=evnJhZM5Ohw&list=PL13o7PRuMdNoE9iSLIqdBfR4nYZIRwVhL&index=9" target="_blank" class="Grid-a">
+                <img src="assets/img/Imagenes sectores/Reworked/NO BG/fixed/food-industry.png" alt="ERP Cloud Alimentacion" class="Grid-img" />
+              </a>
+              <h3 class="Grid-h3">Alimentación</h3>
+            </article>
+
+            <article class="Grid-article">
+              <a href="https://www.youtube.com/watch?v=64xnrzXCVCk&list=PL13o7PRuMdNoE9iSLIqdBfR4nYZIRwVhL&index=2&t=1s" target="_blank" class="Grid-a">
+                <img src="assets/img/Imagenes sectores/Reworked/NO BG/fixed/textile.png" alt="ERP Cloud Textil" class="Grid-img" />
+              </a>
+              <h3 class="Grid-h3">Textil</h3>
+            </article>
+
+            <article class="Grid-article">
+              <a href="https://www.youtube.com/watch?v=x141F8j6xK0&t=5s" target="_blank" class="Grid-a">
+                <img src="assets/img/Imagenes sectores/Reworked/NO BG/fixed/franchise.png" alt="ERP Cloud Franquicias" class="Grid-img" />
+              </a>
+              <h3 class="Grid-h3">Franquicias</h3>
+            </article>
+
+            <article class="Grid-article">
+              <a href="https://www.youtube.com/watch?v=9MXdFKQK3-8" target="_blank" class="Grid-a">
+                <img src="assets/img/Imagenes sectores/Reworked/NO BG/fixed/construction-company.png" alt="ERP Cloud Contruccion" class="Grid-img" />
+              </a>
+              <h3 class="Grid-h3">Construcción</h3>
+            </article>
+
+            <article class="Grid-article">
+              <a href="https://www.youtube.com/watch?v=8MdyKwWuEcY&list=PL13o7PRuMdNoE9iSLIqdBfR4nYZIRwVhL&index=10" target="_blank" class="Grid-a">
+                <img src="assets/img/Imagenes sectores/Reworked/NO BG/fixed/prefabricated.png" alt="ERP Cloud Prefabricados" class="Grid-img" />
+              </a>
+              <h3 class="Grid-h3">Prefabricados</h3>
+            </article>
+
+            <article class="Grid-article">
+              <a href="https://www.youtube.com/watch?v=64xnrzXCVCk&list=PL13o7PRuMdNoE9iSLIqdBfR4nYZIRwVhL&index=2&t=1s" target="_blank" class="Grid-a">
+                <img src="assets/img/Imagenes sectores/Reworked/NO BG/fixed/forniture.png" alt="ERP Cloud Muebles" class="Grid-img" />
+              </a>
+              <h3 class="Grid-h3">Muebles</h3>
+            </article>
+
+            <article class="Grid-article">
+              <a href="https://www.youtube.com/watch?v=W1v6JlNjTAs&list=PL13o7PRuMdNoE9iSLIqdBfR4nYZIRwVhL&index=8" target="_blank" class="Grid-a">
+                <img src="assets/img/Imagenes sectores/Reworked/NO BG/fixed/ceramic.png" alt="ERP Cloud Ceramica" class="Grid-img" />
+              </a>
+              <h3 class="Grid-h3">Cerámica</h3>
+            </article>
+
+            <article class="Grid-article">
+              <a href="https://www.youtube.com/watch?v=64xnrzXCVCk&list=PL13o7PRuMdNoE9iSLIqdBfR4nYZIRwVhL&index=2&t=1s" target="_blank" class="Grid-a">
+                <img src="assets/img/Imagenes sectores/Reworked/NO BG/fixed/technical-service.png" alt="ERP Cloud Servicio tecnico" class="Grid-img" />
+              </a>
+              <h3 class="Grid-h3">Servicio técnico</h3>
+            </article>
+
+            <article class="Grid-article">
+              <a href="https://www.youtube.com/watch?v=irbz2uh9rr0" target="_blank" class="Grid-a">
+                <img src="assets/img/Imagenes sectores/Reworked/NO BG/fixed/rent-sales.png" alt="ERP Cloud Alquiler y venta" class="Grid-img" />
+              </a>
+              <h3 class="Grid-h3">Alquiler y venta</h3>
+            </article>
+
+            <article class="Grid-article">
+              <a href="https://www.youtube.com/watch?v=GVsNhb7I0jk&list=PL13o7PRuMdNoE9iSLIqdBfR4nYZIRwVhL&index=5" target="_blank" class="Grid-a">
+                <img src="assets/img/Imagenes sectores/Reworked/NO BG/fixed/technology.png" alt="ERP Cloud Tecnología" class="Grid-img" />
+              </a>
+              <h3 class="Grid-h3">Tecnología</h3>
+            </article>
+          </div>
+        </div>
+      </section>
     </main>
     <!-- Fin de Main -->
   </body>
