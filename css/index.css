@@ -531,7 +531,7 @@ body {
   height: 50%;
 }
 .Video-p {
-  width:70%;
+  width: 70%;
   font-size: 20px;
   color: var(--White);
 }
@@ -555,7 +555,7 @@ body {
 }
 .Grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(15rem,1fr));
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
 
   padding-top: 50px;
 
@@ -609,7 +609,7 @@ body {
   font-size: 20px;
   color: var(--White);
 }
-.Ventajas-p strong{
+.Ventajas-p strong {
   font-weight: 600;
 }
 .Flex {
