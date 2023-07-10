@@ -46,7 +46,7 @@
 
 /* Barra de scroll personalizada */
 ::-webkit-scrollbar {
-  width: 0.75rem;
+  width: 9px;
 }
 ::-webkit-scrollbar-track {
   background: linear-gradient(90deg, var(--Black5) 0%, var(--Black4) 50%, var(--Black5) 100%);
@@ -498,7 +498,7 @@ body {
 .Main-img {
   width: 45%;
   height: 45%;
-  margin-right: -5.55%;
+  margin-right: -5vw;
   margin-top: -5%;
 }
 .Video-section {
