@@ -466,7 +466,7 @@ body {
 }
 .Properties-li {
   font-size: 20px;
-  font-weight: 400;
+  font-weight: 600;
 }
 .Buttons {
   display: flex;
@@ -531,6 +531,7 @@ body {
   height: 50%;
 }
 .Video-p {
+  width:70%;
   font-size: 20px;
   color: var(--White);
 }
@@ -554,7 +555,7 @@ body {
 }
 .Grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(auto-fit,minmax(15rem,1fr));
 
   padding-top: 50px;
 
@@ -576,6 +577,68 @@ body {
 .Grid-h3 {
   font-size: 24px;
   font-weight: 700;
+  white-space: nowrap;
+}
+
+.Ventajas-section {
+  width: 100%;
+  padding: 75px 0;
+  background-color: var(--Metallic2);
+
+  min-height: 60vh;
+}
+.Ventajas-wrapper {
+  margin: auto;
+}
+.Ventajas-div {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+
+  gap: 50px;
+
+  text-align: center;
+}
+.Ventajas-h3 {
+  font-size: 41px;
+  font-weight: 700;
+  color: var(--White);
+}
+.Ventajas-p {
+  font-size: 20px;
+  color: var(--White);
+}
+.Ventajas-p strong{
+  font-weight: 600;
+}
+.Flex {
+  width: 75%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
+
+  gap: 50px;
+}
+.Flex-div1 {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+.Flex-div2 {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.Flex-span {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--White);
+
   white-space: nowrap;
 }
 
