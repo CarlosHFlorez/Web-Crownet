@@ -642,6 +642,95 @@ body {
   white-space: nowrap;
 }
 
+.Demo-div {
+  width: 100%;
+  min-height: 710px;
+  background-image: url("/assets/img/Secciones/OPT/demo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.Integraciones-section {
+  width: 100%;
+  padding: 75px 0;
+
+  min-height: 60vh;
+}
+.Integraciones-wrapper {
+  margin: auto;
+}
+.Integraciones-h3 {
+  font-size: 41px;
+  font-weight: 700;
+
+  text-align: center;
+}
+.Container {
+  padding: 50px 0;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.Container-flex {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.Container-img {
+  width: 45%;
+  height: 45%;
+
+  margin-left: -5vw;
+}
+.Container-column {
+  width: 50%;
+
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  gap: 1rem;
+}
+.Container-p {
+  font-size: 20px;
+  color: var(--Black2);
+}
+.Container-p strong {
+  font-weight: 600;
+}
+.Integraciones {
+  width: 100%;
+  padding: 75px 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+
+  gap: 2rem;
+}
+.Integraciones-article {
+  width: calc(100% / 5);
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: center;
+
+  gap: 10px;
+}
+.Integraciones-img {
+  width: 50%;
+  height: 50%;
+}
+.Integraciones-h4 {
+  font-size: 20px;
+  font-weight: 700;
+
+  white-space: nowrap;
+}
+
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 1024px) {
