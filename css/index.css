@@ -736,7 +736,7 @@ body {
 
 .Clientes-section {
   width: 100%;
-  min-height: 70vh;
+  min-height: 50vh;
   padding: 75px 0;
   background-color: var(--Metallic2);
 }
@@ -750,29 +750,30 @@ body {
   color: var(--White);
 }
 .Clientes-ul {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-evenly;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  justify-items: center;
   align-items: center;
-
-  gap: 3rem;
+  grid-gap: 2rem;
 
   padding-top: 75px;
 }
 .Clientes-li {
 }
 .Clientes-a {
-  width: 75%;
-  height: 75%;
+  width: 50%;
+  height: 50%;
 }
 .Clientes-img {
+  width: fit-content;
+  height: fit-content;
   filter: saturate(0%);
   transform: scale(1);
   transition: all ease 0.3s;
 }
 .Clientes-img:hover {
   filter: saturate(100%);
-  transform: scale(1.1);
+  transform: scale(2);
 }
 
 .Reviews-section {
@@ -789,6 +790,71 @@ body {
   text-align: center;
 }
 .Reviews-div {
+  padding-top: 5rem;
+}
+.Reviews-container {
+  position: relative;
+  overflow: hidden;
+  width: 50%;
+  margin: auto;
+  padding-top: 28.125%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) / 2 */
+  outline: 4px solid var(--Orange);
+  border-radius: 4px;
+}
+.Reviews-slider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+.Reviews-ul {
+  width: 100%;
+  padding: 3rem 0;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+
+  grid-gap: 3rem;
+}
+.Reviews-li {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: center;
+
+  text-align: center;
+
+  gap: 20px;
+
+  cursor: pointer;
+}
+.Reviews-img {
+  width: 100%;
+  height: 100%;
+
+  border-radius: 4px;
+
+  transform: scale(1);
+  transition: transform ease 0.3s;
+}
+.Reviews-img:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+}
+.Reviews-img.isActive {
+  outline: 2px solid var(--Orange);
+  border-radius: 4px;
+}
+.Reviews-span {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--Black2);
 }
 
 .Quote-section {
@@ -807,6 +873,8 @@ body {
   align-items: center;
 
   gap: 50px;
+  padding: 3rem 0;
+  border: 7px double var(--Orange);
 }
 .Quote-p::before {
   content: "\201C";
@@ -818,7 +886,7 @@ body {
 }
 
 .Quote-p {
-  width: 100%;
+  width: 90%;
   font-size: 25px;
   font-weight: 600;
   font-style: italic;
@@ -827,7 +895,7 @@ body {
   color: var(--White);
 }
 .Quote-cite {
-  width: 100%;
+  width: 90%;
   font-size: 20px;
   color: var(--White);
   text-align: center;
