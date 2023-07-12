@@ -272,7 +272,7 @@ body {
   justify-content: flex-start;
   align-items: center;
 
-  gap: 16px;
+  gap: 1rem;
 }
 .Rrss-li {
 }
@@ -708,15 +708,14 @@ body {
 .Integraciones {
   width: 100%;
   padding: 75px 0 25px 0;
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between;
-  align-items: flex-start;
 
-  gap: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+
+  grid-gap: 3rem;
 }
 .Integraciones-article {
-  width: calc(100% / 5);
+  width: 100%;
   display: flex;
   flex-flow: column nowrap;
   justify-content: space-between;
@@ -726,7 +725,7 @@ body {
 }
 .Integraciones-img {
   width: 50%;
-  height: 50%;
+  height: fit-content;
 }
 .Integraciones-h4 {
   font-size: 20px;
@@ -761,6 +760,7 @@ body {
 .Clientes-li {
 }
 .Clientes-a {
+  margin: auto;
   width: 50%;
   height: 50%;
 }
@@ -793,20 +793,13 @@ body {
   padding-top: 5rem;
 }
 .Reviews-container {
-  position: relative;
-  overflow: hidden;
-  width: 50%;
+  width: 560px;
+  height: 315px;
   margin: auto;
-  padding-top: 28.125%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) / 2 */
   outline: 4px solid var(--Orange);
   border-radius: 4px;
 }
 .Reviews-slider {
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
   width: 100%;
   height: 100%;
 }
@@ -830,14 +823,14 @@ body {
   text-align: center;
 
   gap: 20px;
-
-  cursor: pointer;
 }
 .Reviews-img {
   width: 100%;
   height: 100%;
 
   border-radius: 4px;
+
+  cursor: pointer;
 
   transform: scale(1);
   transition: transform ease 0.3s;
@@ -929,6 +922,7 @@ body {
 .CTA-h3 {
   font-size: 41px;
   font-weight: 700;
+  text-align: center;
 }
 .CTA-a {
   padding: 1rem 2rem;
@@ -976,8 +970,12 @@ body {
   flex-flow: row nowrap;
   justify-content: space-between;
   align-items: flex-start;
+
+  gap: 3rem;
 }
-.Footer-info {
+.Footer-info,
+.Footer-contacto,
+.Footer-legal {
   display: flex;
   flex-flow: column nowrap;
   justify-content: flex-start;
@@ -1004,14 +1002,6 @@ body {
   font-size: 16px;
   color: var(--White);
 }
-.Footer-contacto {
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: flex-start;
-  align-items: flex-start;
-
-  gap: 10px;
-}
 .Footer-phone {
   display: flex;
   flex-flow: row nowrap;
@@ -1028,6 +1018,7 @@ body {
 .Footer-span {
   font-size: 16px;
   color: var(--White);
+  text-align: center;
 }
 .Footer-email {
   display: flex;
@@ -1038,14 +1029,6 @@ body {
   gap: 10px;
 }
 .Footer-rrss {
-}
-.Footer-legal {
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: flex-start;
-  align-items: flex-start;
-
-  gap: 10px;
 }
 .Footer-logo {
 }
@@ -1120,5 +1103,131 @@ body {
     justify-content: center;
     align-items: center;
     gap: 1rem;
+  }
+  .Main-section {
+    padding: 75px 0 75px 0;
+  }
+  .Main-container {
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .Main-column {
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    gap: 50px;
+    padding-bottom: 8rem;
+  }
+  .Main-img {
+    width: 100%;
+    height: 100%;
+    margin-right: -10vw;
+  }
+  .Video-video {
+    width: 100%;
+    height: 100%;
+  }
+  .Video-p {
+    width: 100%;
+  }
+  .Container-flex {
+    display: flex;
+    flex-flow: column-reverse nowrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .Container-column {
+    width: 100%;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    gap: 1rem;
+    padding-bottom: 3rem;
+  }
+  .Container-img {
+    width: 100%;
+    height: 100%;
+
+    margin-left: -10vw;
+  }
+  .Reviews-ul {
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  }
+
+  .Footer {
+    padding: 75px 0 50px 0;
+  }
+  .Footer-all {
+    width: 100%;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+    gap: 5rem;
+  }
+  .Footer-div {
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+    gap: 3rem;
+  }
+  .Footer-info,
+  .Footer-contacto,
+  .Footer-legal {
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+    gap: 30px;
+  }
+  .Footer-ul {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
+
+    gap: 30px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .Main-h1 {
+    text-align: center;
+  }
+  .Main-p {
+    text-align: center;
+  }
+  .Properties {
+    width: 100%;
+    text-align: center;
+  }
+  .Buttons {
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
+
+    gap: 50px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .Rrss {
+    gap: 2rem;
   }
 }
