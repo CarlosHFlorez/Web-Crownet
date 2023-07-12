@@ -793,15 +793,21 @@ body {
   padding-top: 5rem;
 }
 .Reviews-container {
-  width: 560px;
-  height: 315px;
+  position: relative;
+  padding-bottom: 28.125%;
+}
+.Reviews-slider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+
   margin: auto;
   outline: 4px solid var(--Orange);
   border-radius: 4px;
-}
-.Reviews-slider {
-  width: 100%;
-  height: 100%;
 }
 .Reviews-ul {
   width: 100%;
@@ -1095,6 +1101,31 @@ body {
     padding: 3rem 0;
     opacity: 1;
   }
+  .Grid {
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  }
+  .Integraciones {
+    .Integraciones {
+      grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+    }
+  }
+  .Reviews-container {
+    position: relative;
+    padding-bottom: 56.25%;
+  }
+  .Reviews-slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+
+    margin: auto;
+    outline: 4px solid var(--Orange);
+    border-radius: 4px;
+  }
 }
 @media screen and (max-width: 768px) {
   .Header-top-wrapper {
@@ -1158,6 +1189,9 @@ body {
     height: 100%;
 
     margin-left: -10vw;
+  }
+  .Integraciones {
+    grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
   }
   .Reviews-ul {
     grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
@@ -1229,5 +1263,8 @@ body {
 @media screen and (max-width: 480px) {
   .Rrss {
     gap: 2rem;
+  }
+  .Integraciones {
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
   }
 }
