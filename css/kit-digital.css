@@ -519,10 +519,25 @@ body {
 .Soluciones-wrapper {
   margin: auto;
 }
+.Soluciones-h2 {
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+}
+.Soluciones-p {
+  font-size: 20px;
+  text-align: center;
+  padding: 50px 0 0 0;
+}
+.Soluciones-p strong {
+  font-weight: 600;
+}
+
 .Soluciones-div {
   width: 100%;
 }
 .Cards {
+  padding: 50px 0 75px 0;
 }
 .Cards-ul {
   width: 100%;
@@ -552,12 +567,70 @@ body {
   border-radius: 4px;
 }
 .Cards-h3 {
+  font-size: 35px;
+  font-weight: 700;
 }
 .Cards-span {
+  font-size: 14px;
+  font-weight: 600;
 }
 .Cards-p {
+  font-size: 14px;
+}
+.Cards-p strong {
+  font-size: 20px;
+  font-weight: 600;
 }
 .Cards-a {
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  background: linear-gradient(0deg, var(--Orange) 0%, var(--Orange3) 100%);
+  color: var(--White);
+  border: 1px solid var(--Black2);
+
+  font-size: 18px;
+  font-weight: 700;
+
+  white-space: nowrap;
+}
+.Cards-a:hover {
+  background: linear-gradient(0deg, var(--Orange) 0%, var(--Orange5) 100%);
+}
+.Cards-a:active {
+  background: var(--Transparent);
+  color: var(--Black2);
+}
+.Contacto-section {
+  width: 100%;
+  min-height: 70vh;
+  background-color: var(--Metallic2);
+}
+.Contacto-wrapper {
+  margin: auto;
+}
+.Contacto-div {
+  padding: 75px 0;
+
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: center;
+
+  gap: 50px;
+}
+.Contacto-h3 {
+  font-size: 41px;
+  font-weight: 700;
+  text-align: center;
+  color: var(--White);
+}
+.Contacto-p {
+  font-size: 20px;
+  text-align: center;
+  color: var(--White);
+}
+.Contacto-p strong {
+  font-weight: 600;
 }
 
 .Footer {
@@ -713,5 +786,64 @@ body {
   }
   .Main-section {
     padding: 0 0 50px 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .Header-span {
+    font-size: 17px;
+  }
+  .Footer-span {
+    font-size: 14px;
+  }
+  .Flex-span {
+    font-size: 18px;
+  }
+  .Header-top-wrapper {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+  .Footer {
+    padding: 75px 0 50px 0;
+  }
+  .Footer-all {
+    width: 100%;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+    gap: 5rem;
+  }
+  .Footer-div {
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+    gap: 3rem;
+  }
+  .Footer-info,
+  .Footer-contacto,
+  .Footer-legal {
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+    gap: 30px;
+  }
+  .Footer-ul {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
+
+    gap: 30px;
   }
 }
