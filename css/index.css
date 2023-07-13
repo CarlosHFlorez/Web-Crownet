@@ -485,7 +485,7 @@ body {
   color: var(--White);
   border: 1px solid var(--Black2);
 
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 700;
 
   white-space: nowrap;
@@ -728,7 +728,7 @@ body {
   height: fit-content;
 }
 .Integraciones-h4 {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 700;
   text-align: center;
 }
@@ -1128,6 +1128,44 @@ body {
   }
 }
 @media screen and (max-width: 768px) {
+/* Inicio de Tipografía */
+  .Main-h1 {
+    font-size: 54px;
+  }
+  .Video-h2,
+  .Sectores-h2 {
+    font-size: 45px;
+  }
+  .Grid-h3,
+  .Ventajas-h3,
+  .Integraciones-h3,
+  .Clientes-h3,
+  .Reviews-h3,
+  .CTA-h3 {
+    font-size: 18px;
+  }
+  .Integraciones-h4 {
+    font-size: 16px;
+  }.Main-p,
+  .Buttons-a,
+  .Properties-li,
+  .Video-p,
+  .Ventajas-p,
+  .Container-p,
+  .Quote-p {
+    font-size: 18px;
+  }
+  .Header-span {
+    font-size: 17px;
+  }
+  .Footer-span {
+    font-size: 14px;
+  }
+  .Flex-span {
+    font-size: 18px;
+  }
+  /* Fin de Tipografía */
+
   .Header-top-wrapper {
     display: flex;
     flex-flow: column;
@@ -1242,8 +1280,43 @@ body {
 @media screen and (max-width: 576px) {
   .Main-h1 {
     text-align: center;
+    font-size: 48px;
   }
+  .Video-h2,
+  .Sectores-h2 {
+    font-size: 28px;
+  }
+  .Grid-h3,
+  .Ventajas-h3,
+  .Integraciones-h3,
+  .Clientes-h3,
+  .Reviews-h3,
+  .CTA-h3 {
+    font-size: 18px;
+  }
+  .Integraciones-h4 {
+    font-size: 16px;
+  }
+  .Buttons-a,
+  .Properties-li,
+  .Video-p,
+  .Ventajas-p,
+  .Container-p,
+  .Quote-p {
+    font-size: 16px;
+  }
+  .Header-span {
+    font-size: 14px;
+  }
+  .Footer-span {
+    font-size: 12px;
+  }
+  .Flex-span {
+    font-size: 15px;
+  }
+
   .Main-p {
+    font-size:16px;
     text-align: center;
   }
   .Properties {
