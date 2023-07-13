@@ -457,7 +457,7 @@ body {
 
   gap: 50px;
 }
-.Main-a {
+#Main-a {
   width: fit-content;
   padding: 1rem 2rem;
   border-radius: 8px;
@@ -470,10 +470,10 @@ body {
 
   white-space: nowrap;
 }
-.Main-a:hover {
+#Main-a:hover {
   background: linear-gradient(0deg, var(--Orange) 0%, var(--Orange5) 100%);
 }
-.Main-a:active {
+#Main-a:active {
   background: var(--Transparent);
   color: var(--Black2);
 }
@@ -545,8 +545,7 @@ body {
 }
 .Cards {
   padding: 50px 0 75px 0;
-}
-.Cards-ul {
+
   width: 100%;
 
   display: grid;
@@ -557,7 +556,7 @@ body {
   text-align: center;
   color: var(--White);
 }
-.Cards-li {
+.Cards-article {
   width: 100%;
   min-height: 60vh;
 
@@ -581,10 +580,18 @@ body {
   font-size: 14px;
   font-weight: 600;
 }
-.Cards-p {
+.Cards-ul {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+
+  gap: 10px;
+}
+.Cards-li {
   font-size: 14px;
 }
-.Cards-p strong {
+.Cards-li strong {
   font-size: 20px;
   font-weight: 600;
 }
@@ -607,7 +614,7 @@ body {
   background: var(--Transparent);
   color: var(--Black2);
 }
-.Contacto-section {
+#Contacto-section {
   width: 100%;
   min-height: 70vh;
   background-color: var(--Metallic2);
@@ -798,6 +805,12 @@ body {
 @media screen and (max-width: 768px) {
   .Header-span {
     font-size: 17px;
+  }
+  .Main-section {
+    padding: 50px 0 50px 0;
+  }
+  .Cards {
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
   }
   .Footer-span {
     font-size: 14px;
