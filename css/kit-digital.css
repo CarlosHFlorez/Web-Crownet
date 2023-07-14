@@ -427,12 +427,9 @@ body {
 }
 .Main-div {
   width: 90%;
-  margin: auto;
-  min-height: 203px;
-  background-image: url("/assets/img/Secciones/OPT/Kit-1.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center center;
+  height:100%;
+}
+.Main-img {
 }
 
 .Main-kit-div {
@@ -526,7 +523,7 @@ body {
 .Soluciones-wrapper {
   margin: auto;
 }
-.Soluciones-h2 {
+h2.Soluciones- {
   font-size: 50px;
   font-weight: 700;
   text-align: center;
@@ -709,7 +706,7 @@ body {
   display: flex;
   flex-flow: row nowrap;
   justify-content: flex-start;
-  align-items: flex-start;
+  align-items: center;
 
   gap: 10px;
 }
@@ -727,7 +724,7 @@ body {
   display: flex;
   flex-flow: row nowrap;
   justify-content: flex-start;
-  align-items: flex-start;
+  align-items: center;
 
   gap: 10px;
 }
@@ -799,31 +796,90 @@ body {
     opacity: 1;
   }
   .Main-section {
-    padding: 0 0 50px 0;
+    padding: 50px 0 50px 0;
+  }
+  .Main-flex {
+    width: 100%;
   }
 }
 @media screen and (max-width: 768px) {
+  /* Inicio de Tipografía */
+  #Main-a,
+  .Video-p,
+  .Soluciones-p,
+  .Contacto-p {
+    font-size: 18px;
+  }
+  .Cards-span {
+    font-size: 12px;
+  }
+  .Cards-li {
+    font-size: 12px;
+  }
+  .Cards-li strong {
+    font-size: 18px;
+  }
+  .Main-h1 {
+    font-size: 54px;
+  }
+  .Soluciones-h2 {
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+  }
+  .Cards-h3 {
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .Contacto-h3 {
+    font-size: 32px;
+    font-weight: 700;
+  }
+  .Footer-h5 {
+    font-size: 22px;
+    font-weight: 700;
+  }
   .Header-span {
-    font-size: 17px;
-  }
-  .Main-section {
-    padding: 50px 0 50px 0;
-  }
-  .Cards {
-    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    font-size: 12px;
   }
   .Footer-span {
     font-size: 14px;
   }
-  .Flex-span {
-    font-size: 18px;
+  /* Fin de Tipografía */
+  .Main-section {
+    padding: 125px 0 50px 0;
   }
+
   .Header-top-wrapper {
     display: flex;
     flex-flow: column;
     justify-content: center;
     align-items: center;
     gap: 1rem;
+  }
+  .Video-section {
+    padding: 0 0 75px 0;
+  }
+  .Video-container {
+    margin-top: 50px;
+    position: relative;
+    padding-bottom: 56.25%;
+  }
+  .Video-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+
+    margin: auto;
+    outline: 4px solid var(--Orange);
+    border-radius: 4px;
+  }
+  .Cards {
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
   }
   .Footer {
     padding: 75px 0 50px 0;
@@ -865,5 +921,62 @@ body {
     align-items: center;
 
     gap: 30px;
+  }
+  .Footer-info,
+  .Footer-ul,
+  .Footer-contacto,
+  .Footer-legal {
+    gap: 10px;
+  }
+}
+@media screen and (max-width: 576px) {
+  /* Inicio de Tipografía */
+  #Main-a,
+  .Video-p,
+  .Soluciones-p,
+  .Contacto-p {
+    font-size: 16px;
+  }
+  .Cards-span {
+    font-size: 12px;
+  }
+  .Cards-li {
+    font-size: 12px;
+  }
+  .Cards-li strong {
+    font-size: 18px;
+  }
+  .Main-h1 {
+    font-size: 48px;
+  }
+  .Soluciones-h2 {
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+  }
+  .Contacto-h3 {
+    font-size: 28px;
+    font-weight: 700;
+  }
+  .Cards-h3 {
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .Footer-h5 {
+    font-size: 22px;
+    font-weight: 700;
+  }
+  .Header-span {
+    font-size: 12px;
+  }
+  .Footer-span {
+    font-size: 14px;
+  }
+  /* Fin de Tipografía */
+}
+@media screen and (max-width: 480px) {
+  .Footer-span,
+  .Footer-a {
+    font-size: 12px;
   }
 }

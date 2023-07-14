@@ -646,11 +646,9 @@ body {
 
 .Demo-div {
   width: 100%;
-  min-height: 710px;
-  background-image: url("/assets/img/Secciones/OPT/demo.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
+  height: 100%;
+}
+.Demo-img {
 }
 .Integraciones-section {
   width: 100%;
@@ -902,13 +900,10 @@ body {
 
 .Demo2-div {
   width: 100%;
-  min-height: 737px;
-  background-image: url("/assets/img/Secciones/OPT/demo2.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
+  height: 100%;
 }
-
+.Demo2-img {
+}
 .CTA-section {
   width: 100%;
   min-height: 30vh;
@@ -1012,7 +1007,7 @@ body {
   display: flex;
   flex-flow: row nowrap;
   justify-content: flex-start;
-  align-items: flex-start;
+  align-items: center;
 
   gap: 10px;
 }
@@ -1030,7 +1025,7 @@ body {
   display: flex;
   flex-flow: row nowrap;
   justify-content: flex-start;
-  align-items: flex-start;
+  align-items: center;
 
   gap: 10px;
 }
@@ -1128,7 +1123,7 @@ body {
   }
 }
 @media screen and (max-width: 768px) {
-/* Inicio de Tipografía */
+  /* Inicio de Tipografía */
   .Main-h1 {
     font-size: 54px;
   }
@@ -1146,7 +1141,12 @@ body {
   }
   .Integraciones-h4 {
     font-size: 16px;
-  }.Main-p,
+  }
+  .Navmenu-li {
+    font-size: 17px;
+    font-weight: 600;
+  }
+  .Main-p,
   .Buttons-a,
   .Properties-li,
   .Video-p,
@@ -1155,10 +1155,15 @@ body {
   .Quote-p {
     font-size: 18px;
   }
-  .Header-span {
-    font-size: 17px;
+  .Footer-h5 {
+    font-size: 22px;
+    font-weight: 700;
   }
-  .Footer-span {
+  .Header-span {
+    font-size: 12px;
+  }
+  .Footer-span,
+  .Footer-a {
     font-size: 14px;
   }
   .Flex-span {
@@ -1276,8 +1281,15 @@ body {
 
     gap: 30px;
   }
+  .Footer-info,
+  .Footer-ul,
+  .Footer-contacto,
+  .Footer-legal {
+    gap: 10px;
+  }
 }
 @media screen and (max-width: 576px) {
+  /* Inicio de Tipografía */
   .Main-h1 {
     text-align: center;
     font-size: 48px;
@@ -1305,10 +1317,8 @@ body {
   .Quote-p {
     font-size: 16px;
   }
-  .Header-span {
-    font-size: 14px;
-  }
-  .Footer-span {
+  .Footer-span,
+  .Footer-a {
     font-size: 12px;
   }
   .Flex-span {
@@ -1316,9 +1326,10 @@ body {
   }
 
   .Main-p {
-    font-size:16px;
+    font-size: 16px;
     text-align: center;
   }
+  /* Fin de Tipografía */
   .Properties {
     width: 100%;
     text-align: center;
@@ -1332,12 +1343,67 @@ body {
 
     gap: 50px;
   }
+  .Properties {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+  }
 }
 @media screen and (max-width: 480px) {
-  .Rrss {
-    gap: 2rem;
+  /* Inicio de Tipografía */
+  .Main-h1 {
+    text-align: center;
+    font-size: 32px;
   }
+  .Video-h2,
+  .Sectores-h2 {
+    font-size: 26px;
+  }
+  .Grid-h3,
+  .Ventajas-h3,
+  .Integraciones-h3,
+  .Clientes-h3,
+  .Reviews-h3,
+  .CTA-h3 {
+    font-size: 20px;
+  }
+  .Integraciones-h4 {
+    font-size: 14px;
+  }
+  .Reviews-ul {
+    grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
+  }
+  .Navmenu-li,
+  .Buttons-a,
+  .Properties-li,
+  .Video-p,
+  .Ventajas-p,
+  .Container-p,
+  .Quote-p {
+    font-size: 14px;
+  }
+  .Footer-span,
+  .Footer-a {
+    font-size: 12px;
+  }
+  .Flex-span {
+    font-size: 15px;
+  }
+
+  .Main-p {
+    font-size: 14px;
+    text-align: center;
+  }
+  /* Fin de Tipografía */
+
   .Integraciones {
     grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  }
+  .Main-column {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
   }
 }
