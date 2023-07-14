@@ -485,7 +485,7 @@ body {
   color: var(--White);
   border: 1px solid var(--Black2);
 
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 700;
 
   white-space: nowrap;
@@ -1131,13 +1131,15 @@ body {
   .Sectores-h2 {
     font-size: 45px;
   }
-  .Grid-h3,
+  .Grid-h3 {
+    font-size: 22px;
+  }
   .Ventajas-h3,
   .Integraciones-h3,
   .Clientes-h3,
   .Reviews-h3,
   .CTA-h3 {
-    font-size: 18px;
+    font-size: 32px;
   }
   .Integraciones-h4 {
     font-size: 16px;
@@ -1146,8 +1148,10 @@ body {
     font-size: 17px;
     font-weight: 600;
   }
+  .Buttons-a {
+    font-size: 16px;
+  }
   .Main-p,
-  .Buttons-a,
   .Properties-li,
   .Video-p,
   .Ventajas-p,
@@ -1298,7 +1302,9 @@ body {
   .Sectores-h2 {
     font-size: 28px;
   }
-  .Grid-h3,
+  .Grid-h3 {
+    font: 20px;
+  }
   .Ventajas-h3,
   .Integraciones-h3,
   .Clientes-h3,
@@ -1309,7 +1315,9 @@ body {
   .Integraciones-h4 {
     font-size: 16px;
   }
-  .Buttons-a,
+  .Buttons-a {
+    font-size: 14px;
+  }
   .Properties-li,
   .Video-p,
   .Ventajas-p,
@@ -1360,7 +1368,9 @@ body {
   .Sectores-h2 {
     font-size: 26px;
   }
-  .Grid-h3,
+  .Grid-h3 {
+    font: 18px;
+  }
   .Ventajas-h3,
   .Integraciones-h3,
   .Clientes-h3,
@@ -1375,7 +1385,6 @@ body {
     grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
   }
   .Navmenu-li,
-  .Buttons-a,
   .Properties-li,
   .Video-p,
   .Ventajas-p,

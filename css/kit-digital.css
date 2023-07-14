@@ -570,11 +570,11 @@ body {
   border-radius: 4px;
 }
 .Cards-h3 {
-  font-size: 35px;
+  font-size: 36px;
   font-weight: 700;
 }
 .Cards-span {
-  font-size: 14px;
+  font-size: 20px;
   font-weight: 600;
 }
 .Cards-ul {
@@ -586,7 +586,7 @@ body {
   gap: 10px;
 }
 .Cards-li {
-  font-size: 14px;
+  font-size: 18px;
 }
 .Cards-li strong {
   font-size: 20px;
@@ -811,13 +811,16 @@ body {
     font-size: 18px;
   }
   .Cards-span {
-    font-size: 12px;
+    font-size: 18px;
   }
   .Cards-li {
-    font-size: 12px;
+    font-size: 16px;
   }
   .Cards-li strong {
     font-size: 18px;
+  }
+  .Cards-a {
+    font-size: 16px;
   }
   .Main-h1 {
     font-size: 54px;
@@ -828,7 +831,7 @@ body {
     text-align: center;
   }
   .Cards-h3 {
-    font-size: 18px;
+    font-size: 32px;
     font-weight: 700;
   }
   .Contacto-h3 {
@@ -938,13 +941,16 @@ body {
     font-size: 16px;
   }
   .Cards-span {
-    font-size: 12px;
+    font-size: 16px;
   }
   .Cards-li {
-    font-size: 12px;
+    font-size: 14px;
   }
   .Cards-li strong {
-    font-size: 18px;
+    font-size: 16px;
+  }
+  .Cards-a {
+    font-size: 14px;
   }
   .Main-h1 {
     font-size: 48px;
@@ -959,7 +965,7 @@ body {
     font-weight: 700;
   }
   .Cards-h3 {
-    font-size: 18px;
+    font-size: 28px;
     font-weight: 700;
   }
   .Footer-h5 {
@@ -973,8 +979,26 @@ body {
     font-size: 14px;
   }
   /* Fin de Tipografía */
+  .Video-section {
+    min-height: 50vh;
+  }
 }
 @media screen and (max-width: 480px) {
+  .Main-h1 {
+    font-size: 32px;
+  }
+  .Soluciones-h2 {
+    font-size: 26px;
+  }
+  .Cards-h3 {
+    font-size: 24px;
+  }
+  #Main-a,
+  .Video-p,
+  .Soluciones-p,
+  .Contacto-p {
+    font-size: 14px;
+  }
   .Footer-span,
   .Footer-a {
     font-size: 12px;
