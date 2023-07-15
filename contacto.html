@@ -109,26 +109,29 @@
     </header>
     <!-- Fin de header, Logo y Menú de navegación -->
     <main class="Main">
-      <div class="formdistribuidores">
-        @using (Html.BeginForm()) {
-
-        <div class="formdistribuidores">
-          <input class="inputempresa" type="text" name="asunto" placeholder="Nombre / Empresa" />
+      <form action="/Index/Contactar" method="post">
+        <div>
+          <label class="empresa">Nombre:</label>
+          <div>
+            <input class="inputempresa" type="text" name="asunto" placeholder="Nombre/Empresa" />
+          </div>
         </div>
-
-        <div class="formdistribuidores">
-          <input class="inputcorreo" type="email" name="para" placeholder="E-mail" />
+        <div>
+          <label class="correo2">Correo:</label>
+          <div>
+            <input class="inputcorreo" type="email" name="para" placeholder="E-mail" />
+          </div>
         </div>
-
-        <div class="formdistribuidores">
-          <textarea class="escribasumensaje2" name="mensaje" placeholder="Mensaje..."></textarea>
+        <div>
+          <label class="observaciones2">Observaciones:</label>
+          <div>
+            <textarea class="escribasumensaje2" name="mensaje" placeholder="Escriba su mensaje"></textarea>
+          </div>
         </div>
-
-        <div class="formdistribuidores">
+        <div>
           <input class="botonenviar2" type="submit" value="Enviar" />
         </div>
-        }
-      </div>
+      </form>
     </main>
     <footer class="Footer">
       <div class="Footer-wrapper Wrapper2">
