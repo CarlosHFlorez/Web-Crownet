@@ -453,17 +453,17 @@ body {
 }
 .tabla {
 }
-.table {
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: center;
-  align-items: flex-start;
+.table{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: flex-start;
 }
-.tr {
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: center;
-  align-items: flex-start;
+.tr{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: flex-start;
 }
 .empresaerp {
   font-size: 20px;
@@ -472,16 +472,7 @@ body {
   white-space: nowrap;
 }
 .inputemp {
-}
-.inputusu {
-  width: 100%;
-  font-size: 20px;
-  font-weight: 400;
-  color: var(--Black2);
-
-  background-color: var(--White);
-  border-radius: 4px;
-  border: 2px solid var(--Orange);
+    
 }
 .text-box .single-line {
 }
@@ -509,8 +500,7 @@ body {
   color: var(--Black2);
   white-space: nowrap;
 }
-.inputcontra {
-}
+.inputcontra {}
 
 .text-box .single-line .password {
 }
@@ -531,21 +521,21 @@ body {
   white-space: nowrap;
 }
 .inputejercicio {
-  width: 100%;
-  font-size: 20px;
-  font-weight: 400;
-  color: var(--Black2);
-
-  background-color: var(--White);
-  border-radius: 4px;
-  border: 2px solid var(--Orange);
+    width: 100%;
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--Black2);
+  
+    background-color: var(--White);
+    border-radius: 4px;
+    border: 2px solid var(--Orange);
 }
 
 .btn-group {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: center;
-  align-items: center;
+   display: flex;
+   flex-flow: row  nowrap;
+   justify-content: center;
+   align-items: center;
 }
 .btnerp {
   padding: 1rem 2rem;
