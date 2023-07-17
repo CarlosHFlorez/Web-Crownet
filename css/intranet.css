@@ -450,20 +450,14 @@ body {
   text-align: center;
   white-space: nowrap;
 }
-.fields {
-  width: 100%;
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: space-between;
-  align-items: center;
-  gap: 20px;
-}
 .usuario,
 .contraseña {
   font-size: 20px;
   font-weight: 600;
   color: var(--White);
   text-align: start;
+  padding: 20px 0;
+  text-align: center;
 }
 .usu,
 .contra {

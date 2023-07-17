@@ -566,7 +566,7 @@ body {
 
   padding: 3rem;
   background: linear-gradient(0deg, var(--Metallic2) 0%, var(--Metallic) 100%);
-  outline: 2px solid var(--Orange);
+  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.5);
   border-radius: 4px;
 }
 .Cards-h3 {
@@ -642,6 +642,37 @@ body {
 }
 .Contacto-p strong {
   font-weight: 600;
+}
+.Contacto-form {
+  width: min-content;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.inputempresa,
+.nif,
+.tipo,
+.cargo,
+.inputcorreo,
+.trabajadores,
+.movil,
+.actividad,
+.escribasumensaje2 {
+  font-size: 20px;
+  font-weight: 400;
+  color: var(--Black2);
+
+  background-color: var(--White);
+  border-radius: 4px;
+  border: 2px solid var(--Orange);
+
+  resize: none;
+}
+
+.botonenviar2 {
 }
 
 .Footer {

@@ -120,15 +120,15 @@
           <h1 class="Main-h1">Iniciar sesión</h1>
           @using (Html.BeginForm()) {
 
-          <div class="fields">
+          <div>
             <label class="usuario">Usuario:</label>
             <div class="usu">@Html.EditorFor(model => model.Usuario, new { @class = "form-control" }) @Html.ValidationMessageFor(model => model.Usuario, null, new { @class = "text-danger" })</div>
           </div>
-          <div class="fields">
+          <div>
             <label class="contraseña">Contraseña:</label>
             <div class="contra">@Html.EditorFor(model => model.Password, new { @class = "form-control" }) @Html.ValidationMessageFor(model => model.Password, null, new { @class = "text-danger" })</div>
           </div>
-          <div class="fields">
+          <div>
             <div>
               <input type="submit" value="Login" class="boton" />
             </div>
