@@ -431,7 +431,7 @@ body {
 .caja {
   margin: auto;
   padding: 3rem;
-  width: 25%;
+  width: min-content;
   min-height: 40vh;
   background-color: var(--Metallic2);
   border-radius: 4px;

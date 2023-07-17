@@ -431,8 +431,8 @@ body {
 
 .login {
   margin: auto;
+  width: min-content;
   padding: 3rem;
-  width: 25%;
   min-height: 40vh;
   background-color: var(--White5);
   border-radius: 4px;
