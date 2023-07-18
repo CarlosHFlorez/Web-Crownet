@@ -468,7 +468,8 @@ body {
 .inputempresa,
 .inputcorreo,
 .escribasumensaje2 {
-  width: 200%;
+  width: 175%;
+  padding: 0.5rem 1rem;
   font-size: 1.25rem;
   font-weight: 400;
   color: var(--Black2);
@@ -669,6 +670,13 @@ body {
 }
 @media screen and (max-width: 48rem) {
   /* Inicio de Tipografía */
+  .empresa,
+  .correo2,
+  .observaciones2,
+  .distribuidor,
+  .privacidad {
+    font-size: 1rem;
+  }
   .Footer-h5 {
     font-size: 1.375rem;
     font-weight: 700;
@@ -742,17 +750,25 @@ body {
 @media screen and (max-width: 36rem) {
   /* Inicio de Tipografía */
   .Main-h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     white-space: pre-wrap;
     text-align: center;
   }
   .Main-form {
     width: 100%;
   }
+  .empresa,
+  .correo2,
+  .observaciones2,
+  .distribuidor,
+  .privacidad{
+    font-size: 0.875rem;
+  }
   .inputempresa,
   .inputcorreo,
   .escribasumensaje2 {
-    width: 140%;
+    width: 150%;
+    font-size: 1rem;
   }
   .Footer-span,
   .Footer-a {
@@ -765,12 +781,13 @@ body {
   /* Inicio de Tipografía */
   .Main-h1 {
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
   .inputempresa,
   .inputcorreo,
   .escribasumensaje2 {
     width: 100%;
+    font-size: 0.875rem;
   }
   .Footer-span,
   .Footer-a {

@@ -46,7 +46,7 @@
 
 /* Barra de scroll personalizada */
 ::-webkit-scrollbar {
-  width: .5625rem;
+  width: 0.5625rem;
 }
 ::-webkit-scrollbar-track {
   background: linear-gradient(90deg, var(--Black5) 0%, var(--Black4) 50%, var(--Black5) 100%);
@@ -246,7 +246,7 @@ body {
   align-items: center;
   white-space: nowrap;
 
-  gap: .5rem;
+  gap: 0.5rem;
 }
 .Header-svg {
   width: 1.5rem;
@@ -255,7 +255,7 @@ body {
 }
 .Header-span {
   color: var(--White);
-  font-size: .875rem;
+  font-size: 0.875rem;
   font-weight: 400;
 }
 .Header-email {
@@ -264,7 +264,7 @@ body {
   justify-content: flex-start;
   align-items: center;
 
-  gap: .5rem;
+  gap: 0.5rem;
 }
 .Rrss {
   display: flex;
@@ -284,7 +284,7 @@ body {
   fill: var(--White);
 }
 .Rrss-svg:hover {
-  filter: drop-shadow(0rem 0rem .5rem var(--Orange));
+  filter: drop-shadow(0rem 0rem 0.5rem var(--Orange));
 }
 .Rrss-svg:active {
   fill: var(--Orange);
@@ -298,7 +298,7 @@ body {
   width: 100%;
   padding: 2rem 0;
   background-color: var(--White5);
-  box-shadow: 0rem .25rem .5rem rgba(0, 0, 0, 0.25);
+  box-shadow: 0rem 0.25rem 0.5rem rgba(0, 0, 0, 0.25);
 }
 .Header-bottom-wrapper {
   margin: auto;
@@ -362,7 +362,7 @@ body {
 .Navmenu-li::after {
   content: "";
   width: 0%;
-  height: .125rem;
+  height: 0.125rem;
   background: var(--Orange);
   display: block;
   transition: all 0.3s ease;
@@ -387,7 +387,7 @@ body {
 .Iniciar-erp-btn {
   padding: 1rem 2rem;
   border-radius: 2rem;
-  border: .0625rem solid var(--Black2);
+  border: 0.0625rem solid var(--Black2);
   background: linear-gradient(0deg, var(--Blue) 0%, var(--Blue3) 100%);
 
   font-size: 1.125rem;
@@ -434,8 +434,8 @@ body {
   width: min-content;
   min-height: 40vh;
   background-color: var(--Metallic2);
-  border-radius: .25rem;
-  box-shadow: 0rem 0rem .5rem rgba(0, 0, 0, 0.5);
+  border-radius: 0.25rem;
+  box-shadow: 0rem 0rem 0.5rem rgba(0, 0, 0, 0.5);
 
   display: flex;
   flex-flow: column nowrap;
@@ -467,15 +467,15 @@ body {
   color: var(--Black2);
 
   background-color: var(--White);
-  border-radius: .25rem;
-  border: .125rem solid var(--Orange);
+  border-radius: 0.25rem;
+  border: 0.125rem solid var(--Orange);
 }
 .boton {
   padding: 1rem 2rem;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   background: linear-gradient(0deg, var(--Green) 0%, var(--Green3) 100%);
   color: var(--White);
-  border: .0625rem solid var(--Black2);
+  border: 0.0625rem solid var(--Black2);
 
   font-size: 1.125rem;
   font-weight: 700;
@@ -527,7 +527,7 @@ body {
   justify-content: flex-start;
   align-items: flex-start;
 
-  gap: .625rem;
+  gap: 0.625rem;
 }
 .Footer-h5 {
   font-size: 1.5rem;
@@ -540,7 +540,7 @@ body {
   justify-content: flex-start;
   align-items: flex-start;
 
-  gap: .625rem;
+  gap: 0.625rem;
 }
 .Footer-li {
 }
@@ -554,7 +554,7 @@ body {
   justify-content: flex-start;
   align-items: center;
 
-  gap: .625rem;
+  gap: 0.625rem;
 }
 .Footer-svg {
   width: 1.5rem;
@@ -572,7 +572,7 @@ body {
   justify-content: flex-start;
   align-items: center;
 
-  gap: .625rem;
+  gap: 0.625rem;
 }
 .Footer-rrss {
 }
@@ -623,7 +623,7 @@ body {
     overflow: hidden;
 
     background: var(--White4);
-    border: .125rem solid var(--Black2);
+    border: 0.125rem solid var(--Black2);
     border-radius: 1rem;
 
     display: flex;
@@ -649,11 +649,11 @@ body {
     font-weight: 700;
   }
   .Header-span {
-    font-size: .75rem;
+    font-size: 0.75rem;
   }
   .Footer-span,
   .Footer-a {
-    font-size: .875rem;
+    font-size: 0.875rem;
   }
 
   /* Fin de Tipografía */
@@ -711,19 +711,24 @@ body {
   .Footer-ul,
   .Footer-contacto,
   .Footer-legal {
-    gap: .625rem;
+    gap: 0.625rem;
   }
 }
 @media screen and (max-width: 36rem) {
   /* Inicio de Tipografía */
   .Main-h1 {
     text-align: center;
-    font-size: 3rem;
+    font-size: 1.5rem;
+  }
+  .usu,
+  .contra {
+    width: 100%;
+    font-size: 1.125rem;
   }
 
   .Footer-span,
   .Footer-a {
-    font-size: .75rem;
+    font-size: 0.75rem;
   }
 
   /* Fin de Tipografía */
@@ -732,12 +737,16 @@ body {
   /* Inicio de Tipografía */
   .Main-h1 {
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.25rem;
   }
-
+  .usu,
+  .contra {
+    width: 5rem;
+    font-size: 1rem;
+  }
   .Footer-span,
   .Footer-a {
-    font-size: .75rem;
+    font-size: 0.75rem;
   }
 
   /* Fin de Tipografía */

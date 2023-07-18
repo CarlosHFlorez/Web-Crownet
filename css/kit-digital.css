@@ -625,7 +625,7 @@ body {
 
   display: flex;
   flex-flow: column nowrap;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 
   gap: 3.125rem;
@@ -645,12 +645,14 @@ body {
   font-weight: 600;
 }
 .Contacto-form {
-  width: min-content;
+  width: 100%;
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
   gap: 1.875rem;
+
+  margin: auto;
 }
 
 .inputempresa,
@@ -660,10 +662,24 @@ body {
 .inputcorreo,
 .trabajadores,
 .movil,
-.actividad,
+.actividad {
+  width: 30rem;
+  padding: 0.5rem 1rem;
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: var(--Black2);
+
+  background-color: var(--White);
+  border-radius: 0.25rem;
+  border: 0.125rem solid var(--Orange);
+
+  resize: none;
+}
 .escribasumensaje2 {
-  width: 200%;
-  font-size: 10.25rem;
+  width: 30rem;
+  height: 10rem;
+  padding: 0.5rem 1rem;
+  font-size: 1.25rem;
   font-weight: 400;
   color: var(--Black2);
 
@@ -1033,6 +1049,18 @@ body {
   .Video-section {
     min-height: 50vh;
   }
+  .inputempresa,
+  .nif,
+  .tipo,
+  .cargo,
+  .inputcorreo,
+  .trabajadores,
+  .movil,
+  .actividad,
+  .escribasumensaje2 {
+    width: 20rem;
+    font-size: 1.125rem;
+  }
 }
 @media screen and (max-width: 30rem) {
   .Main-h1 {
@@ -1043,6 +1071,18 @@ body {
   }
   .Cards-h3 {
     font-size: 1.5rem;
+  }
+  .inputempresa,
+  .nif,
+  .tipo,
+  .cargo,
+  .inputcorreo,
+  .trabajadores,
+  .movil,
+  .actividad,
+  .escribasumensaje2 {
+    width: 15rem;
+    font-size: 1rem;
   }
   #Main-a,
   .Video-p,

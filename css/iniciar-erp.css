@@ -454,6 +454,7 @@ body {
 .tabla {
 }
 .table{
+  width:100%;
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;

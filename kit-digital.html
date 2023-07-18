@@ -332,57 +332,43 @@
 
             <div class="Contacto-form">
               @using (Html.BeginForm()) {
+
               <div>
-                <div>
-                  <input class="inputempresa" type="text" name="empresa" placeholder="Nombre/Razón de la empresa" />
-                </div>
-              </div>
-              <div>
-                <div>
-                  <input class="nif" type="text" name="nif" placeholder="NIF/CIF" />
-                </div>
+                <input class="inputempresa" type="text" name="empresa" placeholder="Nombre/Razón de la empresa" />
               </div>
 
               <div>
-                <div>
-                  <input class="tipo" type="text" name="tipo" placeholder="Tipo de Empresa" />
-                </div>
+                <input class="nif" type="text" name="nif" placeholder="NIF/CIF" />
               </div>
 
               <div>
-                <div>
-                  <input class="cargo" type="text" name="cargo" placeholder="Cargo" />
-                </div>
+                <input class="tipo" type="text" name="tipo" placeholder="Tipo de Empresa" />
               </div>
 
               <div>
-                <div>
-                  <input class="inputcorreo" type="email" name="para" placeholder="E-mail" />
-                </div>
-              </div>
-              <div>
-                <div>
-                  <input class="trabajadores" type="text" name="trabajadores" placeholder="Número de trabajadores" />
-                </div>
+                <input class="cargo" type="text" name="cargo" placeholder="Cargo" />
               </div>
 
               <div>
-                <div>
-                  <input class="movil" type="text" name="telefono" placeholder="Teléfono de contacto" />
-                </div>
+                <input class="inputcorreo" type="email" name="para" placeholder="E-mail" />
               </div>
 
               <div>
-                <div>
-                  <input class="actividad" type="text" name="sector" placeholder="Sector de actividad" />
-                </div>
+                <input class="trabajadores" type="text" name="trabajadores" placeholder="Número de trabajadores" />
               </div>
 
               <div>
-                <div>
-                  <textarea class="escribasumensaje2" name="mensaje" placeholder="Descripción de la actividad de la empresa..."></textarea>
-                </div>
+                <input class="movil" type="text" name="telefono" placeholder="Teléfono de contacto" />
               </div>
+
+              <div>
+                <input class="actividad" type="text" name="sector" placeholder="Sector de actividad" />
+              </div>
+
+              <div>
+                <textarea class="escribasumensaje2" name="mensaje" placeholder="Descripción de la actividad de la empresa..."></textarea>
+              </div>
+
               <div>
                 <input class="botonenviar2" type="submit" value="Enviar" />
               </div>
