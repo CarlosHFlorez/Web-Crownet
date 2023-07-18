@@ -663,7 +663,7 @@ body {
 .trabajadores,
 .movil,
 .actividad {
-  width: 30rem;
+  width: 50rem;
   padding: 0.5rem 1rem;
   font-size: 1.25rem;
   font-weight: 400;
@@ -676,7 +676,7 @@ body {
   resize: none;
 }
 .escribasumensaje2 {
-  width: 30rem;
+  width: 50rem;
   height: 10rem;
   padding: 0.5rem 1rem;
   font-size: 1.25rem;
@@ -868,6 +868,19 @@ body {
   .Main-flex {
     width: 100%;
   }
+  .inputempresa,
+  .nif,
+  .tipo,
+  .cargo,
+  .inputcorreo,
+  .trabajadores,
+  .movil,
+  .actividad {
+    width: 40rem;
+  }
+  .escribasumensaje2 {
+    width: 40rem;
+  }
 }
 @media screen and (max-width: 48rem) {
   /* Inicio de Tipografía */
@@ -950,6 +963,19 @@ body {
   }
   .Cards {
     grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  }
+  .inputempresa,
+  .nif,
+  .tipo,
+  .cargo,
+  .inputcorreo,
+  .trabajadores,
+  .movil,
+  .actividad {
+    width: 30rem;
+  }
+  .escribasumensaje2 {
+    width: 30rem;
   }
   .Footer {
     padding: 4.6875rem 0 3.125rem 0;
