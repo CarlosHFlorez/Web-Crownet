@@ -11,7 +11,7 @@ $(`.Header-btn`).click(function () {
 $(`.Reviews-img`).click(function () {
   $(`.Reviews-img`).removeClass(`isActive`);
   let i = $(`.Reviews-img`).index($(this));
-  let source = $(`.Reviews-li`).eq(i).attr(`src`);
+  let source = $(`.Reviews-a`).eq(i).attr(`href`);
   $(`.Reviews-img`).eq(i).addClass(`isActive`);
   $(`.Reviews-slider`).attr(`src`, source);
 });

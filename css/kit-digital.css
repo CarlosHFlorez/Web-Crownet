@@ -46,7 +46,7 @@
 
 /* Barra de scroll personalizada */
 ::-webkit-scrollbar {
-  width: 9px;
+  width: .5625rem;
 }
 ::-webkit-scrollbar-track {
   background: linear-gradient(90deg, var(--Black5) 0%, var(--Black4) 50%, var(--Black5) 100%);
@@ -228,7 +228,7 @@ body {
 /* Inicio del Header Top */
 .Header-top {
   width: 100%;
-  padding: 18px 0;
+  padding: 1.125rem 0;
   background-color: var(--Metallic);
 }
 .Header-top-wrapper {
@@ -246,16 +246,16 @@ body {
   align-items: center;
   white-space: nowrap;
 
-  gap: 8px;
+  gap: .5rem;
 }
 .Header-svg {
-  width: 24px;
-  height: 24px;
+  width: 1.5rem;
+  height: 1.5rem;
   fill: var(--White);
 }
 .Header-span {
   color: var(--White);
-  font-size: 14px;
+  font-size: .875rem;
   font-weight: 400;
 }
 .Header-email {
@@ -264,7 +264,7 @@ body {
   justify-content: flex-start;
   align-items: center;
 
-  gap: 8px;
+  gap: .5rem;
 }
 .Rrss {
   display: flex;
@@ -279,12 +279,12 @@ body {
 .Rrss-a {
 }
 .Rrss-svg {
-  width: 24px;
-  height: 24px;
+  width: 1.5rem;
+  height: 1.5rem;
   fill: var(--White);
 }
 .Rrss-svg:hover {
-  filter: drop-shadow(0px 0px 8px var(--Orange));
+  filter: drop-shadow(0rem 0rem .5rem var(--Orange));
 }
 .Rrss-svg:active {
   fill: var(--Orange);
@@ -296,9 +296,9 @@ body {
 /* Inicio del Header Bottom */
 .Header-bottom {
   width: 100%;
-  padding: 32px 0;
+  padding: 2rem 0;
   background-color: var(--White5);
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+  box-shadow: 0rem .25rem .5rem rgba(0, 0, 0, 0.25);
 }
 .Header-bottom-wrapper {
   margin: auto;
@@ -324,8 +324,8 @@ body {
 .Header-logo {
 }
 .Header-img {
-  min-width: 150px;
-  max-width: 150px;
+  min-width: 9.375rem;
+  max-width: 9.375rem;
 }
 .Header-btn {
   display: none;
@@ -341,7 +341,7 @@ body {
   justify-content: flex-end;
   align-items: center;
 
-  gap: 30px;
+  gap: 1.875rem;
 }
 .Header-ul {
 }
@@ -351,10 +351,10 @@ body {
   justify-content: flex-end;
   align-items: center;
 
-  gap: 30px;
+  gap: 1.875rem;
 }
 .Navmenu-li {
-  font-size: 19px;
+  font-size: 1.1875rem;
   font-weight: 600;
   color: var(--Black2);
   white-space: nowrap;
@@ -362,7 +362,7 @@ body {
 .Navmenu-li::after {
   content: "";
   width: 0%;
-  height: 0.125rem;
+  height: .125rem;
   background: var(--Orange);
   display: block;
   transition: all 0.3s ease;
@@ -379,18 +379,18 @@ body {
 .Kitdigital-a {
 }
 .Kitdigital-img {
-  min-width: 100px;
-  max-width: 100px;
+  min-width: 6.25rem;
+  max-width: 6.25rem;
 }
 .Navmenu-img {
 }
 .Iniciar-erp-btn {
   padding: 1rem 2rem;
-  border-radius: 32px;
-  border: 1px solid var(--Black2);
+  border-radius: 2rem;
+  border: .0625rem solid var(--Black2);
   background: linear-gradient(0deg, var(--Blue) 0%, var(--Blue3) 100%);
 
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 700;
   color: var(--White);
 
@@ -412,18 +412,18 @@ body {
 .Main {
   width: 100%;
   min-height: 100vh;
-  margin-top: 180px;
+  margin-top: 11.25rem;
 }
 .Main-section {
   width: 100%;
-  padding: 50px 0 0 0;
+  padding: 3.125rem 0 0 0;
 
   display: flex;
   flex-flow: column nowrap;
   justify-content: flex-start;
   align-items: center;
 
-  gap: 50px;
+  gap: 3.125rem;
 }
 .Main-div {
   width: 90%;
@@ -434,7 +434,7 @@ body {
 
 .Main-kit-div {
   width: 100%;
-  min-height: 443px;
+  min-height: 27.6875rem;
   background-image: url("/assets/img/Secciones/OPT/kit.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -442,7 +442,7 @@ body {
 }
 .Main-wrapper {
   margin: auto;
-  padding: 50px 0;
+  padding: 3.125rem 0;
 }
 .Main-flex {
   width: 50%;
@@ -452,17 +452,17 @@ body {
   justify-content: space-between;
   align-items: flex-start;
 
-  gap: 50px;
+  gap: 3.125rem;
 }
 #Main-a {
   width: fit-content;
   padding: 1rem 2rem;
-  border-radius: 8px;
+  border-radius: .5rem;
   background: linear-gradient(0deg, var(--Orange) 0%, var(--Orange3) 100%);
   color: var(--White);
-  border: 1px solid var(--Black2);
+  border: .0625rem solid var(--Black2);
 
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 700;
 
   white-space: nowrap;
@@ -475,15 +475,15 @@ body {
   color: var(--Black2);
 }
 .Main-h1 {
-  font-size: 60px;
+  font-size: 3.75rem;
   font-weight: 700;
   color: var(--White);
-  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+  text-shadow: .25rem .25rem .25rem rgba(0, 0, 0, 0.5);
 }
 
 .Video-section {
   width: 100%;
-  padding: 75px 0;
+  padding: 4.6875rem 0;
 
   min-height: 70vh;
 }
@@ -491,7 +491,7 @@ body {
   margin: auto;
 }
 .Video-p {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 400;
   text-align: center;
 }
@@ -499,7 +499,7 @@ body {
   font-weight: 600;
 }
 .Video-container {
-  margin-top: 50px;
+  margin-top: 3.125rem;
   position: relative;
   padding-bottom: 28.125%;
 }
@@ -513,8 +513,8 @@ body {
   height: 100%;
 
   margin: auto;
-  outline: 4px solid var(--Orange);
-  border-radius: 4px;
+  outline: .25rem solid var(--Orange);
+  border-radius: .25rem;
 }
 .Soluciones-section {
   width: 100%;
@@ -524,14 +524,14 @@ body {
   margin: auto;
 }
 .Soluciones-h2 {
-  font-size: 50px;
+  font-size: 3.125rem;
   font-weight: 700;
   text-align: center;
 }
 .Soluciones-p {
-  font-size: 20px;
+  font-size: 1.25rem;
   text-align: center;
-  padding: 50px 0 0 0;
+  padding: 3.125rem 0 0 0;
 }
 .Soluciones-p strong {
   font-weight: 600;
@@ -541,14 +541,14 @@ body {
   width: 100%;
 }
 .Cards {
-  padding: 50px 0 75px 0;
+  padding: 3.125rem 0 4.6875rem 0;
 
   width: 100%;
 
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
 
-  grid-gap: 50px;
+  grid-gap: 3.125rem;
 
   text-align: center;
   color: var(--White);
@@ -566,15 +566,15 @@ body {
 
   padding: 3rem;
   background: linear-gradient(0deg, var(--Metallic2) 0%, var(--Metallic) 100%);
-  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.5);
-  border-radius: 4px;
+  box-shadow: 0rem 0rem 1rem rgba(0, 0, 0, 0.5);
+  border-radius: .25rem;
 }
 .Cards-h3 {
-  font-size: 36px;
+  font-size: 2.25rem;
   font-weight: 700;
 }
 .Cards-span {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 600;
 }
 .Cards-ul {
@@ -583,23 +583,23 @@ body {
   justify-content: center;
   align-items: center;
 
-  gap: 10px;
+  gap: .625rem;
 }
 .Cards-li {
-  font-size: 18px;
+  font-size: 1.125rem;
 }
 .Cards-li strong {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 600;
 }
 .Cards-a {
   padding: 1rem 2rem;
-  border-radius: 8px;
+  border-radius: .5rem;
   background: linear-gradient(0deg, var(--Orange) 0%, var(--Orange3) 100%);
   color: var(--White);
-  border: 1px solid var(--Black2);
+  border: .0625rem solid var(--Black2);
 
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 700;
 
   white-space: nowrap;
@@ -620,23 +620,23 @@ body {
   margin: auto;
 }
 .Contacto-div {
-  padding: 75px 0;
+  padding: 4.6875rem 0;
 
   display: flex;
   flex-flow: column nowrap;
   justify-content: space-between;
   align-items: center;
 
-  gap: 50px;
+  gap: 3.125rem;
 }
 .Contacto-h3 {
-  font-size: 41px;
+  font-size: 2.5625rem;
   font-weight: 700;
   text-align: center;
   color: var(--White);
 }
 .Contacto-p {
-  font-size: 20px;
+  font-size: 1.25rem;
   text-align: center;
   color: var(--White);
 }
@@ -649,7 +649,7 @@ body {
   flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
-  gap: 30px;
+  gap: 1.875rem;
 }
 
 .inputempresa,
@@ -661,13 +661,13 @@ body {
 .movil,
 .actividad,
 .escribasumensaje2 {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 400;
   color: var(--Black2);
 
   background-color: var(--White);
-  border-radius: 4px;
-  border: 2px solid var(--Orange);
+  border-radius: .25rem;
+  border: .125rem solid var(--Orange);
 
   resize: none;
 }
@@ -678,7 +678,7 @@ body {
 .Footer {
   width: 100%;
   min-height: 50vh;
-  padding: 75px 0 0 0;
+  padding: 4.6875rem 0 0 0;
 
   background-color: var(--Metallic);
 }
@@ -712,10 +712,10 @@ body {
   justify-content: flex-start;
   align-items: flex-start;
 
-  gap: 10px;
+  gap: .625rem;
 }
 .Footer-h5 {
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 700;
   color: var(--White);
 }
@@ -725,12 +725,12 @@ body {
   justify-content: flex-start;
   align-items: flex-start;
 
-  gap: 10px;
+  gap: .625rem;
 }
 .Footer-li {
 }
 .Footer-a {
-  font-size: 16px;
+  font-size: 1rem;
   color: var(--White);
 }
 .Footer-phone {
@@ -739,15 +739,15 @@ body {
   justify-content: flex-start;
   align-items: center;
 
-  gap: 10px;
+  gap: .625rem;
 }
 .Footer-svg {
-  width: 24px;
-  height: 24px;
+  width: 1.5rem;
+  height: 1.5rem;
   fill: var(--White);
 }
 .Footer-span {
-  font-size: 16px;
+  font-size: 1rem;
   color: var(--White);
   text-align: center;
 }
@@ -757,22 +757,22 @@ body {
   justify-content: flex-start;
   align-items: center;
 
-  gap: 10px;
+  gap: .625rem;
 }
 .Footer-rrss {
 }
 .Footer-logo {
 }
 .Footer-img {
-  min-width: 150px;
-  max-width: 150px;
+  min-width: 9.375rem;
+  max-width: 9.375rem;
 }
 
 /* MEDIA QUERIES */
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 64rem) {
   .Header-bottom {
-    padding: 44px 0;
+    padding: 2.75rem 0;
   }
   .Header-bottom-wrapper {
     display: flex;
@@ -808,7 +808,7 @@ body {
     overflow: hidden;
 
     background: var(--White4);
-    border: 0.125rem solid var(--Black2);
+    border: .125rem solid var(--Black2);
     border-radius: 1rem;
 
     display: flex;
@@ -827,61 +827,61 @@ body {
     opacity: 1;
   }
   .Main-section {
-    padding: 50px 0 50px 0;
+    padding: 3.125rem 0 3.125rem 0;
   }
   .Main-flex {
     width: 100%;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 48rem) {
   /* Inicio de Tipografía */
   #Main-a,
   .Video-p,
   .Soluciones-p,
   .Contacto-p {
-    font-size: 18px;
+    font-size: 1.125rem;
   }
   .Cards-span {
-    font-size: 18px;
+    font-size: 1.125rem;
   }
   .Cards-li {
-    font-size: 16px;
+    font-size: 1rem;
   }
   .Cards-li strong {
-    font-size: 18px;
+    font-size: 1.125rem;
   }
   .Cards-a {
-    font-size: 16px;
+    font-size: 1rem;
   }
   .Main-h1 {
-    font-size: 54px;
+    font-size: 3.375rem;
   }
   .Soluciones-h2 {
-    font-size: 45px;
+    font-size: 2.8125rem;
     font-weight: 700;
     text-align: center;
   }
   .Cards-h3 {
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: 700;
   }
   .Contacto-h3 {
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: 700;
   }
   .Footer-h5 {
-    font-size: 22px;
+    font-size: 1.375rem;
     font-weight: 700;
   }
   .Header-span {
-    font-size: 12px;
+    font-size: .75rem;
   }
   .Footer-span {
-    font-size: 14px;
+    font-size: .875rem;
   }
   /* Fin de Tipografía */
   .Main-section {
-    padding: 125px 0 50px 0;
+    padding: 7.8125rem 0 3.125rem 0;
   }
 
   .Header-top-wrapper {
@@ -892,10 +892,10 @@ body {
     gap: 1rem;
   }
   .Video-section {
-    padding: 0 0 75px 0;
+    padding: 0 0 4.6875rem 0;
   }
   .Video-container {
-    margin-top: 50px;
+    margin-top: 3.125rem;
     position: relative;
     padding-bottom: 56.25%;
   }
@@ -909,14 +909,14 @@ body {
     height: 100%;
 
     margin: auto;
-    outline: 4px solid var(--Orange);
-    border-radius: 4px;
+    outline: .25rem solid var(--Orange);
+    border-radius: .25rem;
   }
   .Cards {
     grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
   }
   .Footer {
-    padding: 75px 0 50px 0;
+    padding: 4.6875rem 0 3.125rem 0;
   }
   .Footer-all {
     width: 100%;
@@ -946,7 +946,7 @@ body {
     justify-content: space-between;
     align-items: center;
 
-    gap: 30px;
+    gap: 1.875rem;
   }
   .Footer-ul {
     display: flex;
@@ -954,84 +954,84 @@ body {
     justify-content: flex-start;
     align-items: center;
 
-    gap: 30px;
+    gap: 1.875rem;
   }
   .Footer-info,
   .Footer-ul,
   .Footer-contacto,
   .Footer-legal {
-    gap: 10px;
+    gap: .625rem;
   }
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 36rem) {
   /* Inicio de Tipografía */
   #Main-a,
   .Video-p,
   .Soluciones-p,
   .Contacto-p {
-    font-size: 16px;
+    font-size: 1rem;
   }
   .Cards-span {
-    font-size: 16px;
+    font-size: 1rem;
   }
   .Cards-li {
-    font-size: 14px;
+    font-size: .875rem;
   }
   .Cards-li strong {
-    font-size: 16px;
+    font-size: 1rem;
   }
   .Cards-a {
-    font-size: 14px;
+    font-size: .875rem;
   }
   .Main-h1 {
-    font-size: 48px;
+    font-size: 3rem;
   }
   .Soluciones-h2 {
-    font-size: 28px;
+    font-size: 1.75rem;
     font-weight: 700;
     text-align: center;
   }
   .Contacto-h3 {
-    font-size: 28px;
+    font-size: 1.75rem;
     font-weight: 700;
   }
   .Cards-h3 {
-    font-size: 28px;
+    font-size: 1.75rem;
     font-weight: 700;
   }
   .Footer-h5 {
-    font-size: 22px;
+    font-size: 1.375rem;
     font-weight: 700;
   }
   .Header-span {
-    font-size: 12px;
+    font-size: .75rem;
   }
   .Footer-span {
-    font-size: 14px;
+    font-size: .875rem;
   }
   /* Fin de Tipografía */
   .Video-section {
     min-height: 50vh;
   }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 30rem) {
   .Main-h1 {
-    font-size: 32px;
+    font-size: 2rem;
   }
   .Soluciones-h2 {
-    font-size: 26px;
+    font-size: 1.625rem;
   }
   .Cards-h3 {
-    font-size: 24px;
+    font-size: 1.5rem;
   }
   #Main-a,
   .Video-p,
   .Soluciones-p,
   .Contacto-p {
-    font-size: 14px;
+    font-size: .875rem;
   }
   .Footer-span,
   .Footer-a {
-    font-size: 12px;
+    font-size: .75rem;
   }
 }

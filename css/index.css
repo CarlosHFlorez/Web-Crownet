@@ -46,7 +46,7 @@
 
 /* Barra de scroll personalizada */
 ::-webkit-scrollbar {
-  width: 9px;
+  width: .5625rem;
 }
 ::-webkit-scrollbar-track {
   background: linear-gradient(90deg, var(--Black5) 0%, var(--Black4) 50%, var(--Black5) 100%);
@@ -228,7 +228,7 @@ body {
 /* Inicio del Header Top */
 .Header-top {
   width: 100%;
-  padding: 18px 0;
+  padding: 1.125rem 0;
   background-color: var(--Metallic);
 }
 .Header-top-wrapper {
@@ -246,16 +246,16 @@ body {
   align-items: center;
   white-space: nowrap;
 
-  gap: 8px;
+  gap: .5rem;
 }
 .Header-svg {
-  width: 24px;
-  height: 24px;
+  width: 1.5rem;
+  height: 1.5rem;
   fill: var(--White);
 }
 .Header-span {
   color: var(--White);
-  font-size: 14px;
+  font-size: .875rem;
   font-weight: 400;
 }
 .Header-email {
@@ -264,7 +264,7 @@ body {
   justify-content: flex-start;
   align-items: center;
 
-  gap: 8px;
+  gap: .5rem;
 }
 .Rrss {
   display: flex;
@@ -279,12 +279,12 @@ body {
 .Rrss-a {
 }
 .Rrss-svg {
-  width: 24px;
-  height: 24px;
+  width: 1.5rem;
+  height: 1.5rem;
   fill: var(--White);
 }
 .Rrss-svg:hover {
-  filter: drop-shadow(0px 0px 8px var(--Orange));
+  filter: drop-shadow(0rem 0rem .5rem var(--Orange));
 }
 .Rrss-svg:active {
   fill: var(--Orange);
@@ -296,9 +296,9 @@ body {
 /* Inicio del Header Bottom */
 .Header-bottom {
   width: 100%;
-  padding: 32px 0;
+  padding: 2rem 0;
   background-color: var(--White5);
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+  box-shadow: 0rem .25rem .5rem rgba(0, 0, 0, 0.25);
 }
 .Header-bottom-wrapper {
   margin: auto;
@@ -324,8 +324,8 @@ body {
 .Header-logo {
 }
 .Header-img {
-  min-width: 150px;
-  max-width: 150px;
+  min-width: 9.375rem;
+  max-width: 9.375rem;
 }
 .Header-btn {
   display: none;
@@ -341,7 +341,7 @@ body {
   justify-content: flex-end;
   align-items: center;
 
-  gap: 30px;
+  gap: 1.875rem;
 }
 .Header-ul {
 }
@@ -351,10 +351,10 @@ body {
   justify-content: flex-end;
   align-items: center;
 
-  gap: 30px;
+  gap: 1.875rem;
 }
 .Navmenu-li {
-  font-size: 19px;
+  font-size: 1.1875rem;
   font-weight: 600;
   color: var(--Black2);
   white-space: nowrap;
@@ -362,7 +362,7 @@ body {
 .Navmenu-li::after {
   content: "";
   width: 0%;
-  height: 0.125rem;
+  height: .125rem;
   background: var(--Orange);
   display: block;
   transition: all 0.3s ease;
@@ -379,18 +379,18 @@ body {
 .Kitdigital-a {
 }
 .Kitdigital-img {
-  min-width: 100px;
-  max-width: 100px;
+  min-width: 6.25rem;
+  max-width: 6.25rem;
 }
 .Navmenu-img {
 }
 .Iniciar-erp-btn {
   padding: 1rem 2rem;
-  border-radius: 32px;
-  border: 1px solid var(--Black2);
+  border-radius: 2rem;
+  border: .0625rem solid var(--Black2);
   background: linear-gradient(0deg, var(--Blue) 0%, var(--Blue3) 100%);
 
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 700;
   color: var(--White);
 
@@ -413,13 +413,13 @@ body {
 .Main {
   width: 100%;
   min-height: 500vh;
-  margin-top: 180px;
-  padding-top: 50px;
+  margin-top: 11.25rem;
+  padding-top: 3.125rem;
 }
 .Main-section {
   width: 100%;
   min-height: 50vh;
-  padding: 0 0 75px 0;
+  padding: 0 0 4.6875rem 0;
 }
 .Main-wrapper {
   margin: auto;
@@ -431,12 +431,12 @@ body {
   align-items: center;
 }
 .Main-h1 {
-  font-size: 60px;
+  font-size: 3.75rem;
   font-weight: 700;
 }
 .Main-container {
   width: 100%;
-  margin-top: 50px;
+  margin-top: 3.125rem;
 
   display: flex;
   flex-flow: row nowrap;
@@ -450,10 +450,10 @@ body {
   justify-content: space-between;
   align-items: flex-start;
 
-  gap: 50px;
+  gap: 3.125rem;
 }
 .Main-p {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 400;
 }
 .Properties {
@@ -467,7 +467,7 @@ body {
   gap: 1rem;
 }
 .Properties-li {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 600;
 }
 .Buttons {
@@ -476,16 +476,16 @@ body {
   justify-content: flex-start;
   align-items: center;
 
-  gap: 50px;
+  gap: 3.125rem;
 }
 .Buttons-a {
   padding: 1rem 2rem;
-  border-radius: 8px;
+  border-radius: .5rem;
   background: linear-gradient(0deg, var(--Orange) 0%, var(--Orange3) 100%);
   color: var(--White);
-  border: 1px solid var(--Black2);
+  border: .0625rem solid var(--Black2);
 
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 700;
 
   white-space: nowrap;
@@ -505,7 +505,7 @@ body {
 }
 .Video-section {
   width: 100%;
-  padding: 75px 0;
+  padding: 4.6875rem 0;
   background-color: var(--Metallic2);
 
   min-height: 70vh;
@@ -521,10 +521,10 @@ body {
 
   text-align: center;
 
-  gap: 50px;
+  gap: 3.125rem;
 }
 .Video-h2 {
-  font-size: 50px;
+  font-size: 3.125rem;
   font-weight: 700;
   color: var(--White);
 }
@@ -534,7 +534,7 @@ body {
 }
 .Video-p {
   width: 70%;
-  font-size: 20px;
+  font-size: 1.25rem;
   color: var(--White);
 }
 .Video-p strong {
@@ -543,7 +543,7 @@ body {
 
 .Sectores-section {
   width: 100%;
-  padding: 75px 0;
+  padding: 4.6875rem 0;
 
   min-height: 70vh;
 }
@@ -551,7 +551,7 @@ body {
   margin: auto;
 }
 .Sectores-h2 {
-  font-size: 50px;
+  font-size: 3.125rem;
   font-weight: 700;
   text-align: center;
 }
@@ -559,7 +559,7 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
 
-  padding-top: 50px;
+  padding-top: 3.125rem;
 
   grid-gap: 3rem;
 }
@@ -572,19 +572,19 @@ body {
   justify-content: center;
   align-items: center;
 
-  gap: 10px;
+  gap: .625rem;
 }
 .Grid-img {
 }
 .Grid-h3 {
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 700;
   white-space: nowrap;
 }
 
 .Ventajas-section {
   width: 100%;
-  padding: 75px 0;
+  padding: 4.6875rem 0;
   background-color: var(--Metallic2);
 
   min-height: 60vh;
@@ -598,17 +598,17 @@ body {
   justify-content: center;
   align-items: center;
 
-  gap: 50px;
+  gap: 3.125rem;
 
   text-align: center;
 }
 .Ventajas-h3 {
-  font-size: 41px;
+  font-size: 2.5625rem;
   font-weight: 700;
   color: var(--White);
 }
 .Ventajas-p {
-  font-size: 20px;
+  font-size: 1.25rem;
   color: var(--White);
 }
 .Ventajas-p strong {
@@ -621,7 +621,7 @@ body {
   justify-content: space-evenly;
   align-items: center;
 
-  gap: 50px;
+  gap: 3.125rem;
 }
 .Flex-div1 {
   display: flex;
@@ -637,7 +637,7 @@ body {
 }
 
 .Flex-span {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 600;
   color: var(--White);
 
@@ -652,7 +652,7 @@ body {
 }
 .Integraciones-section {
   width: 100%;
-  padding: 75px 0;
+  padding: 4.6875rem 0;
 
   min-height: 60vh;
 }
@@ -660,13 +660,13 @@ body {
   margin: auto;
 }
 .Integraciones-h3 {
-  font-size: 41px;
+  font-size: 2.5625rem;
   font-weight: 700;
 
   text-align: center;
 }
 .Container {
-  padding: 50px 0;
+  padding: 3.125rem 0;
   display: flex;
   flex-flow: column nowrap;
   justify-content: space-between;
@@ -697,7 +697,7 @@ body {
   gap: 1rem;
 }
 .Container-p {
-  font-size: 20px;
+  font-size: 1.25rem;
   color: var(--Black2);
 }
 .Container-p strong {
@@ -705,7 +705,7 @@ body {
 }
 .Integraciones {
   width: 100%;
-  padding: 75px 0 25px 0;
+  padding: 4.6875rem 0 1.5625rem 0;
 
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
@@ -719,14 +719,14 @@ body {
   justify-content: space-between;
   align-items: center;
 
-  gap: 10px;
+  gap: .625rem;
 }
 .Integraciones-img {
   width: 50%;
   height: fit-content;
 }
 .Integraciones-h4 {
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 700;
   text-align: center;
 }
@@ -734,14 +734,14 @@ body {
 .Clientes-section {
   width: 100%;
   min-height: 50vh;
-  padding: 75px 0;
+  padding: 4.6875rem 0;
   background-color: var(--Metallic2);
 }
 .Clientes-wrapper {
   margin: auto;
 }
 .Clientes-h3 {
-  font-size: 41px;
+  font-size: 2.5625rem;
   font-weight: 700;
   text-align: center;
   color: var(--White);
@@ -753,7 +753,7 @@ body {
   align-items: center;
   grid-gap: 2rem;
 
-  padding-top: 75px;
+  padding-top: 4.6875rem;
 }
 .Clientes-li {
 }
@@ -777,13 +777,13 @@ body {
 .Reviews-section {
   width: 100%;
   min-height: 70vh;
-  padding: 75px 0;
+  padding: 4.6875rem 0;
 }
 .Reviews-wrapper {
   margin: auto;
 }
 .Reviews-h3 {
-  font-size: 41px;
+  font-size: 2.5625rem;
   font-weight: 700;
   text-align: center;
 }
@@ -804,8 +804,8 @@ body {
   height: 100%;
 
   margin: auto;
-  outline: 4px solid var(--Orange);
-  border-radius: 4px;
+  outline: .25rem solid var(--Orange);
+  border-radius: .25rem;
 }
 .Reviews-ul {
   width: 100%;
@@ -826,13 +826,13 @@ body {
 
   text-align: center;
 
-  gap: 20px;
+  gap: 1.25rem;
 }
 .Reviews-img {
   width: 100%;
   height: 100%;
 
-  border-radius: 4px;
+  border-radius: .25rem;
 
   cursor: pointer;
 
@@ -841,15 +841,16 @@ body {
 }
 .Reviews-img:hover {
   transform: scale(1.1);
-  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.25);
-  border-radius: 4px;
+  box-shadow: 0rem 0rem 1rem rgba(0, 0, 0, 0.25);
+  border-radius: .25rem;
 }
 .Reviews-img.isActive {
-  outline: 2px solid var(--Orange);
-  border-radius: 4px;
+  outline: .125rem solid var(--Orange);
+  border-radius: .25rem;
 }
-.Reviews-span {
-  font-size: 14px;
+.Reviews-a {
+  pointer-events: none;
+  font-size: .875rem;
   font-weight: 600;
   color: var(--Black2);
 }
@@ -857,7 +858,7 @@ body {
 .Quote-section {
   width: 100%;
   min-height: 30vh;
-  padding: 75px 0;
+  padding: 4.6875rem 0;
   background-color: var(--Metallic2);
 }
 .Quote-wrapper {
@@ -869,11 +870,11 @@ body {
   justify-content: center;
   align-items: center;
 
-  gap: 50px;
+  gap: 3.125rem;
   padding: 3rem 0;
-  border: 7px double var(--Orange);
+  border: .4375rem double var(--Orange);
 }
-.Quote-p::before {
+.Quote-h5::before {
   content: "\201C";
   font-size: 10rem;
 
@@ -882,9 +883,9 @@ body {
   bottom: -3vh;
 }
 
-.Quote-p {
+.Quote-h5 {
   width: 90%;
-  font-size: 25px;
+  font-size: 1.5625rem;
   font-weight: 600;
   font-style: italic;
   text-align: center;
@@ -893,7 +894,7 @@ body {
 }
 .Quote-cite {
   width: 90%;
-  font-size: 20px;
+  font-size: 1.25rem;
   color: var(--White);
   text-align: center;
 }
@@ -907,7 +908,7 @@ body {
 .CTA-section {
   width: 100%;
   min-height: 30vh;
-  padding: 75px 0 150px 0;
+  padding: 4.6875rem 0 9.375rem 0;
 }
 .CTA-wrapper {
   margin: auto;
@@ -918,21 +919,21 @@ body {
   justify-content: center;
   align-items: center;
 
-  gap: 50px;
+  gap: 3.125rem;
 }
 .CTA-h3 {
-  font-size: 41px;
+  font-size: 2.5625rem;
   font-weight: 700;
   text-align: center;
 }
 .CTA-a {
   padding: 1rem 2rem;
-  border-radius: 8px;
+  border-radius: .5rem;
   background: linear-gradient(0deg, var(--Orange) 0%, var(--Orange3) 100%);
   color: var(--White);
-  border: 1px solid var(--Black2);
+  border: .0625rem solid var(--Black2);
 
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 700;
 
   white-space: nowrap;
@@ -948,7 +949,7 @@ body {
 .Footer {
   width: 100%;
   min-height: 50vh;
-  padding: 75px 0 0 0;
+  padding: 4.6875rem 0 0 0;
 
   background-color: var(--Metallic);
 }
@@ -982,10 +983,10 @@ body {
   justify-content: flex-start;
   align-items: flex-start;
 
-  gap: 10px;
+  gap: .625rem;
 }
 .Footer-h5 {
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 700;
   color: var(--White);
 }
@@ -995,12 +996,12 @@ body {
   justify-content: flex-start;
   align-items: flex-start;
 
-  gap: 10px;
+  gap: .625rem;
 }
 .Footer-li {
 }
 .Footer-a {
-  font-size: 16px;
+  font-size: 1rem;
   color: var(--White);
 }
 .Footer-phone {
@@ -1009,15 +1010,15 @@ body {
   justify-content: flex-start;
   align-items: center;
 
-  gap: 10px;
+  gap: .625rem;
 }
 .Footer-svg {
-  width: 24px;
-  height: 24px;
+  width: 1.5rem;
+  height: 1.5rem;
   fill: var(--White);
 }
 .Footer-span {
-  font-size: 16px;
+  font-size: 1rem;
   color: var(--White);
   text-align: center;
 }
@@ -1027,22 +1028,22 @@ body {
   justify-content: flex-start;
   align-items: center;
 
-  gap: 10px;
+  gap: .625rem;
 }
 .Footer-rrss {
 }
 .Footer-logo {
 }
 .Footer-img {
-  min-width: 150px;
-  max-width: 150px;
+  min-width: 9.375rem;
+  max-width: 9.375rem;
 }
 
 /* MEDIA QUERIES */
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 64rem) {
   .Header-bottom {
-    padding: 44px 0;
+    padding: 2.75rem 0;
   }
   .Header-bottom-wrapper {
     display: flex;
@@ -1078,7 +1079,7 @@ body {
     overflow: hidden;
 
     background: var(--White4);
-    border: 0.125rem solid var(--Black2);
+    border: .125rem solid var(--Black2);
     border-radius: 1rem;
 
     display: flex;
@@ -1100,10 +1101,9 @@ body {
     grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
   }
   .Integraciones {
-    .Integraciones {
-      grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
-    }
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
   }
+
   .Reviews-container {
     position: relative;
     padding-bottom: 56.25%;
@@ -1118,38 +1118,38 @@ body {
     height: 100%;
 
     margin: auto;
-    outline: 4px solid var(--Orange);
-    border-radius: 4px;
+    outline: .25rem solid var(--Orange);
+    border-radius: .25rem;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 48rem) {
   /* Inicio de Tipografía */
   .Main-h1 {
-    font-size: 54px;
+    font-size: 3.375rem;
   }
   .Video-h2,
   .Sectores-h2 {
-    font-size: 45px;
+    font-size: 2.8125rem;
   }
   .Grid-h3 {
-    font-size: 22px;
+    font-size: 1.375rem;
   }
   .Ventajas-h3,
   .Integraciones-h3,
   .Clientes-h3,
   .Reviews-h3,
   .CTA-h3 {
-    font-size: 32px;
+    font-size: 2rem;
   }
   .Integraciones-h4 {
-    font-size: 16px;
+    font-size: 1rem;
   }
   .Navmenu-li {
-    font-size: 17px;
+    font-size: 1.0625rem;
     font-weight: 600;
   }
   .Buttons-a {
-    font-size: 16px;
+    font-size: 1rem;
   }
   .Main-p,
   .Properties-li,
@@ -1157,21 +1157,21 @@ body {
   .Ventajas-p,
   .Container-p,
   .Quote-p {
-    font-size: 18px;
+    font-size: 1.125rem;
   }
   .Footer-h5 {
-    font-size: 22px;
+    font-size: 1.375rem;
     font-weight: 700;
   }
   .Header-span {
-    font-size: 12px;
+    font-size: .75rem;
   }
   .Footer-span,
   .Footer-a {
-    font-size: 14px;
+    font-size: .875rem;
   }
   .Flex-span {
-    font-size: 18px;
+    font-size: 1.125rem;
   }
   /* Fin de Tipografía */
 
@@ -1183,7 +1183,7 @@ body {
     gap: 1rem;
   }
   .Main-section {
-    padding: 75px 0 75px 0;
+    padding: 4.6875rem 0 4.6875rem 0;
   }
   .Main-container {
     width: 100%;
@@ -1199,7 +1199,7 @@ body {
     justify-content: space-between;
     align-items: flex-start;
 
-    gap: 50px;
+    gap: 3.125rem;
     padding-bottom: 8rem;
   }
   .Main-img {
@@ -1245,7 +1245,7 @@ body {
   }
 
   .Footer {
-    padding: 75px 0 50px 0;
+    padding: 4.6875rem 0 3.125rem 0;
   }
   .Footer-all {
     width: 100%;
@@ -1275,7 +1275,7 @@ body {
     justify-content: space-between;
     align-items: center;
 
-    gap: 30px;
+    gap: 1.875rem;
   }
   .Footer-ul {
     display: flex;
@@ -1283,58 +1283,58 @@ body {
     justify-content: flex-start;
     align-items: center;
 
-    gap: 30px;
+    gap: 1.875rem;
   }
   .Footer-info,
   .Footer-ul,
   .Footer-contacto,
   .Footer-legal {
-    gap: 10px;
+    gap: .625rem;
   }
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 36rem) {
   /* Inicio de Tipografía */
   .Main-h1 {
     text-align: center;
-    font-size: 48px;
+    font-size: 3rem;
   }
   .Video-h2,
   .Sectores-h2 {
-    font-size: 28px;
+    font-size: 1.75rem;
   }
   .Grid-h3 {
-    font: 20px;
+    font: 1.25rem;
   }
   .Ventajas-h3,
   .Integraciones-h3,
   .Clientes-h3,
   .Reviews-h3,
   .CTA-h3 {
-    font-size: 18px;
+    font-size: 1.125rem;
   }
   .Integraciones-h4 {
-    font-size: 16px;
+    font-size: 1rem;
   }
   .Buttons-a {
-    font-size: 14px;
+    font-size: .875rem;
   }
   .Properties-li,
   .Video-p,
   .Ventajas-p,
   .Container-p,
   .Quote-p {
-    font-size: 16px;
+    font-size: 1rem;
   }
   .Footer-span,
   .Footer-a {
-    font-size: 12px;
+    font-size: .75rem;
   }
   .Flex-span {
-    font-size: 15px;
+    font-size: .9375rem;
   }
 
   .Main-p {
-    font-size: 16px;
+    font-size: 1rem;
     text-align: center;
   }
   /* Fin de Tipografía */
@@ -1349,7 +1349,7 @@ body {
     justify-content: flex-start;
     align-items: center;
 
-    gap: 50px;
+    gap: 3.125rem;
   }
   .Properties {
     display: flex;
@@ -1358,28 +1358,28 @@ body {
     align-items: center;
   }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 30rem) {
   /* Inicio de Tipografía */
   .Main-h1 {
     text-align: center;
-    font-size: 32px;
+    font-size: 2rem;
   }
   .Video-h2,
   .Sectores-h2 {
-    font-size: 26px;
+    font-size: 1.625rem;
   }
   .Grid-h3 {
-    font: 18px;
+    font: 1.125rem;
   }
   .Ventajas-h3,
   .Integraciones-h3,
   .Clientes-h3,
   .Reviews-h3,
   .CTA-h3 {
-    font-size: 20px;
+    font-size: 1.25rem;
   }
   .Integraciones-h4 {
-    font-size: 14px;
+    font-size: .875rem;
   }
   .Reviews-ul {
     grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
@@ -1390,18 +1390,18 @@ body {
   .Ventajas-p,
   .Container-p,
   .Quote-p {
-    font-size: 14px;
+    font-size: .875rem;
   }
   .Footer-span,
   .Footer-a {
-    font-size: 12px;
+    font-size: .75rem;
   }
   .Flex-span {
-    font-size: 15px;
+    font-size: .9375rem;
   }
 
   .Main-p {
-    font-size: 14px;
+    font-size: .875rem;
     text-align: center;
   }
   /* Fin de Tipografía */
