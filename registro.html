@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Enlazamos los archivos CSS y JS al DOM -->
-    <link rel="stylesheet" href="css/intranet.css" />
+    <link rel="stylesheet" href="css/registro.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="js/intranet.js" defer></script>
+    <script src="js/registro.js" defer></script>
 
     <!-- Enlazamos la fuente -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -20,7 +20,6 @@
 
     <title>Software ERP Cloud para grandes empresas - Crownet</title>
   </head>
-
   <body>
     <!-- Header, Logo y Menú de navegación -->
     <header class="Header">
@@ -119,15 +118,15 @@
         <div class="caja1">
           <h2 class="inicio">Inicio Sesión</h2>
           <label class="label1">Pulse para que registre la entrada</label>
-          <div>
+          <div class="caja2">
             @using (Html.BeginForm("Entrada", "Index", FormMethod.Post)) {
             <input id="btnEntrar" type="submit" class="botonentrada" value="Registro Entrada" />
             }
           </div>
 
-          <div>
+          <div class="caja2">
             <label class="label2">Pulse para que registre la salida</label>
-            <div>
+            <div class="caja2">
               @using (Html.BeginForm("Salida", "Index", FormMethod.Post)) {
               <input id="btnSalir" type="submit" class="botonS" value="Registro Salida" />
               }
@@ -136,6 +135,7 @@
         </div>
       </div>
     </main>
+
     <footer class="Footer">
       <div class="Footer-wrapper Wrapper2">
         <div class="Footer-all">
