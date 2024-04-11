@@ -435,7 +435,7 @@ body {
 .Main-kit-div {
   width: 100%;
   min-height: 27.6875rem;
-  background-image: url("assets/img/Secciones/OPT/kit.png");
+  background-image: url("../assets/img/Secciones/OPT/kit.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;

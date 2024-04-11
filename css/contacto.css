@@ -417,7 +417,7 @@ body {
 .Main-div {
   width: 100%;
   min-height: 60rem;
-  background-image: url("assets/img/Secciones/OPT/contact-bg.png");
+  background-image: url("../assets/img/Secciones/OPT/contact-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
