@@ -419,7 +419,7 @@ body {
   margin-top: -15vh;
   width: 100%;
   min-height: 60rem;
-  background-image: url("/assets/img/Secciones/OPT/intranet-bg.png");
+  background-image: url("assets/img/Secciones/OPT/intranet-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
