@@ -205,7 +205,7 @@ body {
 /* FIN RESET GLOBAL */
 
 .Wrapper1 {
-  width: 70%;
+  width: 80%;
 }
 .Wrapper2 {
   width: 90%;
@@ -387,7 +387,7 @@ body {
 .Iniciar-erp-btn {
   padding: 1rem 2rem;
   border-radius: 2rem;
-  border: 0.0625rem solid var(--Black2);
+
   background: linear-gradient(0deg, var(--Blue) 0%, var(--Blue3) 100%);
 
   font-size: 1.125rem;
@@ -819,7 +819,7 @@ body {
   grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
   justify-items: center;
   align-items: center;
-  grid-gap: 2rem;
+  grid-gap: 5rem;
 
   padding-top: 4.6875rem;
 }
@@ -827,8 +827,8 @@ body {
 }
 .Clientes-a {
   margin: auto;
-  width: 50%;
-  height: 50%;
+  width: 100%;
+  height: 100%;
 }
 .Clientes-img {
   width: fit-content;
@@ -839,7 +839,7 @@ body {
 }
 .Clientes-img:hover {
   filter: saturate(100%);
-  transform: scale(2);
+  transform: scale(1.25);
 }
 
 .Reviews-section {

@@ -205,7 +205,7 @@ body {
 /* FIN RESET GLOBAL */
 
 .Wrapper1 {
-  width: 70%;
+  width: 80%;
 }
 .Wrapper2 {
   width: 90%;
@@ -387,7 +387,7 @@ body {
 .Iniciar-erp-btn {
   padding: 1rem 2rem;
   border-radius: 2rem;
-  border: 0.0625rem solid var(--Black2);
+
   background: linear-gradient(0deg, var(--Blue) 0%, var(--Blue3) 100%);
 
   font-size: 1.125rem;
@@ -416,6 +416,7 @@ body {
 }
 
 .Main-div {
+  margin-top: -15vh;
   width: 100%;
   min-height: 60rem;
   background-image: url("/assets/img/Secciones/OPT/intranet-bg.png");
@@ -441,7 +442,6 @@ body {
   flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
-  gap: 1.875rem;
 }
 .Main-h1 {
   font-size: 1.8125rem;
@@ -462,6 +462,7 @@ body {
 .usu,
 .contra {
   width: 100%;
+  height: 3rem;
   font-size: 1.25rem;
   font-weight: 400;
   color: var(--Black2);
@@ -471,6 +472,7 @@ body {
   border: 0.125rem solid var(--Orange);
 }
 .boton {
+  margin-top: 2rem;
   padding: 1rem 2rem;
   border-radius: 0.5rem;
   background: linear-gradient(0deg, var(--Green) 0%, var(--Green3) 100%);
